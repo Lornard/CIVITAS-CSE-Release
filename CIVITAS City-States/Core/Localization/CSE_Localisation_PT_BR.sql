@@ -41,11 +41,11 @@ VALUES
 -----------------------------------------------
 	
 	("pt_BR",	"LOC_CSE_TRADE_TRAIT_SMALL_INFLUENCE_BONUS",			"+4 de [ICON_GOLD] Ouro na [ICON_CAPITAL] Capital."									),
-	("pt_BR",	"LOC_CSE_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS",			"+2 de [ICON_GOLD] Ouro em cada edificação de Mercado ou Farol."					),
+	("pt_BR",	"LOC_CSE_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS",			"+4 de [ICON_GOLD] Ouro em cada edificação de Mercado ou Farol."					),
 	("pt_BR",	"LOC_CSE_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS_ALT",		"+4 de [ICON_GOLD] Ouro em cada edificação de Mercado."								),
-	("pt_BR",	"LOC_CSE_TRADE_TRAIT_LARGE_INFLUENCE_BONUS",			"+2 de [ICON_GOLD] Ouro em cada edificação de Banco ou Estaleiro."					),
+	("pt_BR",	"LOC_CSE_TRADE_TRAIT_LARGE_INFLUENCE_BONUS",			"+4 de [ICON_GOLD] Ouro em cada edificação de Banco ou Estaleiro."					),
 	("pt_BR",	"LOC_CSE_TRADE_TRAIT_LARGE_INFLUENCE_BONUS_ALT",		"+4 de [ICON_GOLD] Ouro em cada edificação de Banco."								),
-	("pt_BR",	"LOC_CSE_TRADE_TRAIT_LARGEST_INFLUENCE_BONUS",			"+2 de [ICON_GOLD] Ouro em cada edificação de Bolsa de Valores ou Porto Marítimo."	),
+	("pt_BR",	"LOC_CSE_TRADE_TRAIT_LARGEST_INFLUENCE_BONUS",			"+4 de [ICON_GOLD] Ouro em cada edificação de Bolsa de Valores ou Porto Marítimo."	),
 	("pt_BR",	"LOC_CSE_TRADE_TRAIT_LARGEST_INFLUENCE_BONUS_ALT",		"+4 de [ICON_GOLD] Ouro em cada edificação de Bolsa de Valores."					),
 
 	("pt_BR",	"LOC_CSE_TRADE_TRAIT_NAME",								"Cidade-Estado {LOC_CITY_STATES_TYPE_TRADE}"	),
