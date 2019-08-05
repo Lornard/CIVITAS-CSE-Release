@@ -68,10 +68,10 @@ VALUES
 -- Militaristic
 -----------------------------------------------
 	
-	("pt_BR",	"LOC_CSE_MILITARISTIC_TRAIT_SMALL_INFLUENCE_BONUS",		"+2 de [ICON_PRODUCTION] Produção towards units in your [ICON_CAPITAL] Capital."				),
-	("pt_BR",	"LOC_CSE_MILITARISTIC_TRAIT_MEDIUM_INFLUENCE_BONUS",	"+2 de [ICON_PRODUCTION] Produção towards units in every city with a Barracks or Stable."	),
-	("pt_BR",	"LOC_CSE_MILITARISTIC_TRAIT_LARGE_INFLUENCE_BONUS",		"+2 de [ICON_PRODUCTION] Produção towards units in every city with an Armory."				),
-	("pt_BR",	"LOC_CSE_MILITARISTIC_TRAIT_LARGEST_INFLUENCE_BONUS",	"+2 de [ICON_PRODUCTION] Produção towards units in every city with a Military Academy."		),
+	("pt_BR",	"LOC_CSE_MILITARISTIC_TRAIT_SMALL_INFLUENCE_BONUS",		"+2 de [ICON_PRODUCTION] Produção ao treinar unidades na [ICON_CAPITAL] Capital."					),
+	("pt_BR",	"LOC_CSE_MILITARISTIC_TRAIT_MEDIUM_INFLUENCE_BONUS",	"+2 de [ICON_PRODUCTION] Produção ao treinar unidades em cada cidade com uma Caserna ou Estábulo."	),
+	("pt_BR",	"LOC_CSE_MILITARISTIC_TRAIT_LARGE_INFLUENCE_BONUS",		"+2 de [ICON_PRODUCTION] Produção ao treinar unidades em cada cidade com um Arsenal."				),
+	("pt_BR",	"LOC_CSE_MILITARISTIC_TRAIT_LARGEST_INFLUENCE_BONUS",	"+2 de [ICON_PRODUCTION] Produção ao treinar unidades em cada cidade com uma Academia Militar."		),
 
 	("pt_BR",	"LOC_CSE_MILITARISTIC_TRAIT_NAME",						"Cidade-Estado {LOC_CITY_STATES_TYPE_MILITARISTIC}"	),
 	("pt_BR",	"LOC_CSE_MILITARISTIC_TRAIT_DESCRIPTION",				"{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_CSE_MILITARISTIC_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_CSE_MILITARISTIC_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_CSE_MILITARISTIC_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS} {LOC_CSE_MILITARISTIC_TRAIT_LARGEST_INFLUENCE_BONUS}"	),
@@ -80,10 +80,10 @@ VALUES
 -- Industrial
 -----------------------------------------------
 	
-	("pt_BR",	"LOC_CSE_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS",		"+2 de [ICON_PRODUCTION] Produção towards districts and buildings in your [ICON_CAPITAL] Capital."	),
-	("pt_BR",	"LOC_CSE_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS",		"+2 de [ICON_PRODUCTION] Produção towards districts and buildings in every city with a Workshop."	),
-	("pt_BR",	"LOC_CSE_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS",		"+2 de [ICON_PRODUCTION] Produção towards districts and buildings in every city with a Factory."		),
-	("pt_BR",	"LOC_CSE_INDUSTRIAL_TRAIT_LARGEST_INFLUENCE_BONUS",		"+2 de [ICON_PRODUCTION] Produção towards districts and buildings in every city with a Power Plant."	),
+	("pt_BR",	"LOC_CSE_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS",		"+2 de [ICON_PRODUCTION] Produção ao construir distritos e edificações na [ICON_CAPITAL] Capital."	),
+	("pt_BR",	"LOC_CSE_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS",		"+2 de [ICON_PRODUCTION] Produção ao construir distritos e edificações em cada cidade com uma Oficina."	),
+	("pt_BR",	"LOC_CSE_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS",		"+2 de [ICON_PRODUCTION] Produção ao construir distritos e edificações em cada cidade com uma Fábrica."		),
+	("pt_BR",	"LOC_CSE_INDUSTRIAL_TRAIT_LARGEST_INFLUENCE_BONUS",		"+2 de [ICON_PRODUCTION] Produção ao construir distritos e edificações em cada cidade com uma Usina de Força."	),
 
 	("pt_BR",	"LOC_CSE_MILITARISTIC_TRAIT_NAME",						"Cidade-Estado {LOC_CITY_STATES_TYPE_INDUSTRIAL}"	),
 	("pt_BR",	"LOC_CSE_INDUSTRIAL_TRAIT_DESCRIPTION",					"{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_CSE_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_CSE_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_CSE_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS} {LOC_CSE_INDUSTRIAL_TRAIT_LARGEST_INFLUENCE_BONUS}"	),
@@ -94,10 +94,10 @@ VALUES
 
 	("pt_BR",	"LOC_CITY_STATES_TYPE_CSE_AGRICULTURAL",					"Agrária"	),
 	
-	("pt_BR",	"LOC_CSE_AGRICULTURAL_TRAIT_SMALL_INFLUENCE_BONUS",			"+2 de [ICON_FOOD] Comida na [ICON_CAPITAL] Capital."	),
-	("pt_BR",	"LOC_CSE_AGRICULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS",		"+2 de [ICON_FOOD] Comida em cada edificação de Granary."					),
-	("pt_BR",	"LOC_CSE_AGRICULTURAL_TRAIT_LARGE_INFLUENCE_BONUS",			"+2 de [ICON_FOOD] Comida em cada edificação de Sewer."					),
-	("pt_BR",	"LOC_CSE_AGRICULTURAL_TRAIT_LARGEST_INFLUENCE_BONUS",		"+2 de [ICON_FOOD] Comida em cada edificação de Aqueduct."				),
+	("pt_BR",	"LOC_CSE_AGRICULTURAL_TRAIT_SMALL_INFLUENCE_BONUS",			"+2 de [ICON_FOOD] Comida na [ICON_CAPITAL] Capital."		),
+	("pt_BR",	"LOC_CSE_AGRICULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS",		"+2 de [ICON_FOOD] Comida em cada edificação de Celeiro."	),
+	("pt_BR",	"LOC_CSE_AGRICULTURAL_TRAIT_LARGE_INFLUENCE_BONUS",			"+2 de [ICON_FOOD] Comida em cada edificação de Esgoto."	),
+	("pt_BR",	"LOC_CSE_AGRICULTURAL_TRAIT_LARGEST_INFLUENCE_BONUS",		"+2 de [ICON_FOOD] Comida em cada Aqueduto."				),
 
 	("pt_BR",	"LOC_CSE_AGRICULTURAL_TRAIT_NAME",							"Cidade-Estado {LOC_CITY_STATES_TYPE_CSE_AGRICULTURAL}"	),
 	("pt_BR",	"LOC_CSE_AGRICULTURAL_TRAIT_DESCRIPTION",					"{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_CSE_AGRICULTURAL_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_CSE_AGRICULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_CSE_AGRICULTURAL_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS} {LOC_CSE_AGRICULTURAL_TRAIT_LARGEST_INFLUENCE_BONUS}"	),
@@ -110,10 +110,10 @@ VALUES
 
 	("pt_BR",	"LOC_CITY_STATES_TYPE_CSE_ENTERTAINMENT",					"Entretenimento"	),
 	
-	("pt_BR",	"LOC_CSE_ENTERTAINMENT_TRAIT_SMALL_INFLUENCE_BONUS",		"+1 [ICON_AMENITIES] Serviço na [ICON_CAPITAL] Capital."	),
+	("pt_BR",	"LOC_CSE_ENTERTAINMENT_TRAIT_SMALL_INFLUENCE_BONUS",		"+1 [ICON_AMENITIES] Serviço na [ICON_CAPITAL] Capital."		),
 	("pt_BR",	"LOC_CSE_ENTERTAINMENT_TRAIT_MEDIUM_INFLUENCE_BONUS",		"+1 [ICON_AMENITIES] Serviço em cada edificação de Arena."		),
-	("pt_BR",	"LOC_CSE_ENTERTAINMENT_TRAIT_LARGE_INFLUENCE_BONUS",		"+1 [ICON_AMENITIES] Serviço em cada edificação de Zoo."	),
-	("pt_BR",	"LOC_CSE_ENTERTAINMENT_TRAIT_LARGEST_INFLUENCE_BONUS",		"+1 [ICON_AMENITIES] Serviço em cada edificação de Stadium."	),
+	("pt_BR",	"LOC_CSE_ENTERTAINMENT_TRAIT_LARGE_INFLUENCE_BONUS",		"+1 [ICON_AMENITIES] Serviço em cada edificação de Zoológico."	),
+	("pt_BR",	"LOC_CSE_ENTERTAINMENT_TRAIT_LARGEST_INFLUENCE_BONUS",		"+1 [ICON_AMENITIES] Serviço em cada edificação de Estádio."	),
 
 	("pt_BR",	"LOC_CSE_ENTERTAINMENT_TRAIT_NAME",							"Cidade-Estado de {LOC_CITY_STATES_TYPE_CSE_ENTERTAINMENT}"	),
 	("pt_BR",	"LOC_CSE_ENTERTAINMENT_TRAIT_DESCRIPTION",					"{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS} {LOC_CSE_ENTERTAINMENT_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS} {LOC_CSE_ENTERTAINMENT_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS} {LOC_CSE_ENTERTAINMENT_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS} {LOC_CSE_ENTERTAINMENT_TRAIT_LARGEST_INFLUENCE_BONUS}"	),
@@ -126,9 +126,9 @@ VALUES
 
 	("pt_BR",	"LOC_CITY_STATES_TYPE_CSE_MARITIME",					"Marítma"	),
 	
-	("pt_BR",	"LOC_CSE_MARITIME_TRAIT_SMALL_INFLUENCE_BONUS",			"+1 de [ICON_FOOD] Comida e +1 de [ICON_PRODUCTION] Produção na [ICON_CAPITAL] Capital."	),
-	("pt_BR",	"LOC_CSE_MARITIME_TRAIT_MEDIUM_INFLUENCE_BONUS",		"+1 de [ICON_FOOD] Comida e +1 de [ICON_PRODUCTION] Produção em cada edificação de Farol."		),
-	("pt_BR",	"LOC_CSE_MARITIME_TRAIT_LARGE_INFLUENCE_BONUS",			"+1 de [ICON_FOOD] Comida e +1 de [ICON_PRODUCTION] Produção em cada edificação de Estaleiro."	),
+	("pt_BR",	"LOC_CSE_MARITIME_TRAIT_SMALL_INFLUENCE_BONUS",			"+1 de [ICON_FOOD] Comida e +1 de [ICON_PRODUCTION] Produção na [ICON_CAPITAL] Capital."			),
+	("pt_BR",	"LOC_CSE_MARITIME_TRAIT_MEDIUM_INFLUENCE_BONUS",		"+1 de [ICON_FOOD] Comida e +1 de [ICON_PRODUCTION] Produção em cada edificação de Farol."			),
+	("pt_BR",	"LOC_CSE_MARITIME_TRAIT_LARGE_INFLUENCE_BONUS",			"+1 de [ICON_FOOD] Comida e +1 de [ICON_PRODUCTION] Produção em cada edificação de Estaleiro."		),
 	("pt_BR",	"LOC_CSE_MARITIME_TRAIT_LARGEST_INFLUENCE_BONUS",		"+1 de [ICON_FOOD] Comida e +1 de [ICON_PRODUCTION] Produção em cada edificação de Porto Marítimo."	),
 
 	("pt_BR",	"LOC_CSE_MARITIME_TRAIT_NAME",							"Cidade-Estado {LOC_CITY_STATES_TYPE_CSE_MARITIME}"	),
@@ -160,7 +160,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_AMPI_ADJECTIVE",		"Ampian"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_AMPI_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_AMPI_NAME}"		),
 	("pt_BR",	"LOC_CSE_AMPI_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_AMPI_NAME}"	),
-	("pt_BR",	"LOC_CSE_AMPI_TRAIT_DESCRIPTION",			"Receive the [ICON_RESOURCE_CSE_GLASS] Glass luxury resource (not tradeable), which provides 6 [ICON_AMENITIES] Amenities. Plantations yield +1 de [ICON_PRODUCTION] Produção."	),
+	("pt_BR",	"LOC_CSE_AMPI_TRAIT_DESCRIPTION",			"Receba o recurso de luxo [ICON_RESOURCE_CSE_GLASS] Vidro (não negociável), que fornece 6 [ICON_AMENITIES] Serviços. Plantações provém +1 de [ICON_PRODUCTION] Produção."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_AMPI_NAME",		"{LOC_CIVILIZATION_CSE_AMPI_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_AMPI",						"{LOC_CIVILIZATION_CSE_AMPI_NAME}"	),
@@ -170,7 +170,7 @@ VALUES
 	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_AMPI_CHAPTER_HISTORY_PARA_3",	"The Enfeh peninsula was once a mighty fortress area, the Crusader castle of Nephin, fief of the Counts of Tripoli. The Crusader Lords of Nephin, triply safe behind the walls of Enfeh, the vast rock-cut moat which severed the peninsula from the town, and the sea-swept battlements of their citadel, soon established a reputation as robber barons, the terror of travellers between Jerusalem and Tripoli. The town itself had a better reputation, for its wines were known and prized far and wide throughout the Latin kingdom in the 12th and 13th Centuries. Enfe entered its glory days during the Medieval era, and most of the archaeological and historical monuments that can be seen today date from this period."	),
 	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_AMPI_CHAPTER_HISTORY_PARA_4",	"In 1289 Sultan Qalawun suddenly attacked, captured and destroyed Tripoli. The knights who escaped from the burning city to the two remaining coastal castles of Batroun and Nephin were unable to withstand the full fury of the Mamluk army and beat a further retreat to the island kingdom of Cyprus. Sultan Qalawun destroyed both castles so thoroughly that even the site of Batroun's citadel is lost from history. With Nephin it was a different story, for here the Crusaders had performed one of the great engineering feats of the Middle Ages. They had cut off the peninsular fortress from Enfe proper by cutting a great moat, at sea level, all the way across the peninsula, for over 100 yards, through the living rock, leaving only a small spur in the center at the south end to support the castle's drawbridge."	),
 
-	("pt_BR",	"LOC_RESOURCE_CSE_GLASS_NAME",					"Glass"		),
+	("pt_BR",	"LOC_RESOURCE_CSE_GLASS_NAME",					"Vidro"		),
 
 	("pt_BR",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_CSE_GLASS_CHAPTER_HISTORY_PARA_1",	"Glassmaking is an ancient art, originating as far back as 3500 BC in Mesopotamia. Glass has been a luxury since these early times, but as technology and industrial capacity increased it began to be used for household and industrial purposes. The Phoenicians were notable early glassmakers, particularly at the city of Sidon, which exported glass around the known world. New applications for glass continue to be found, along with ever increasingly refined methods for creating it. Despite this - or perhaps because of it - artisans continuing to make glass using traditional techniques are experiencing a resurgance."	),
 
@@ -182,7 +182,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_ANURADHAPURA_ADJECTIVE",		"Anuradhian"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_ANURADHAPURA_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_ANURADHAPURA_NAME}"		),
 	("pt_BR",	"LOC_CSE_ANURADHAPURA_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_ANURADHAPURA_NAME}"	),
-	("pt_BR",	"LOC_CSE_ANURADHAPURA_TRAIT_DESCRIPTION",			"Your builders may construct Dagoba improvements.[NEWLINE][NEWLINE] Dagobas yield +1 de [ICON_SCIENCE] Ciência and +1 de [ICON_FAITH] Fé, with additional +1 de [ICON_SCIENCE] Ciência for each adjacent Campus, and +1 de [ICON_FAITH] Fé for every adjacent Holy Site. Additional [ICON_SCIENCE] Ciência and [ICON_FAITH] Fé as you advance through the Civics and Technology trees."	),
+	("pt_BR",	"LOC_CSE_ANURADHAPURA_TRAIT_DESCRIPTION",			"Seus construtores podem construir a melhoria Dagoba.[NEWLINE][NEWLINE] Dagobas fornecem +1 de [ICON_SCIENCE] Ciência e +1 de [ICON_FAITH] Fé, com +1 de [ICON_SCIENCE] Ciência adicional para cada Campus adjacente, e +1 de [ICON_FAITH] Fé para cada Lugar Sagrado ajacente. [ICON_SCIENCE] Ciência e [ICON_FAITH] Fé adicionais conforme avança nas árvores tecnológicas e cívica."	),
 
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_ANURADHAPURA_NAME",		"{LOC_CIVILIZATION_CSE_ANURADHAPURA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_ANURADHAPURA",						"{LOC_CIVILIZATION_CSE_ANURADHAPURA_NAME}"	),
@@ -193,7 +193,7 @@ VALUES
 	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_ANURADHAPURA_CHAPTER_HISTORY_PARA_4",	"Anuradhapura attained its highest magnificence about the commencement of the common era. The city had some of the most complex irrigation systems of the ancient world, situated in the dry zone of the country the administration built many tanks to irrigate the land. Most of these tanks still survive. The area was uninhabited for many centuries, but the local population remained aware of the ruins. In Robert Knox's 1681 An Historical Relation of the Island Ceylon, he wrote: 'At this City of Anurodgburro is a Watch kept, beyond which are no more people that yield obedience to the King of Candy'. In 1821, John Davy wrote that: 'Anooradapoora, so long the capital of Ceylon, is now a small mean village, in the midst of a desert. A large tank, numerous stone pillars, two or three immense tumuli, (probably old dagobahs,) are its principal remains. It is still considered a sacred spot; and is a place of pilgrimage'."	),
 
 	("pt_BR",	"LOC_IMPROVEMENT_CSE_DAGOBA_NAME",					"Dagoba"	),
-	("pt_BR",	"LOC_IMPROVEMENT_CSE_DAGOBA_DESCRIPTION",			"Unlocks the Builder ability to construct a Dagoba.[NEWLINE][NEWLINE]Yields +1 de [ICON_SCIENCE] Ciência and +1 de [ICON_FAITH] Fé, with additional +1 de [ICON_SCIENCE] Ciência for each adjacent Campus, and +1 de [ICON_FAITH] Fé for every adjacent Holy Site. Additional [ICON_SCIENCE] Ciência and [ICON_FAITH] Fé as you advance through the Civics and Technology trees."	),
+	("pt_BR",	"LOC_IMPROVEMENT_CSE_DAGOBA_DESCRIPTION",			"Dagobas fornecem +1 de [ICON_SCIENCE] Ciência e +1 de [ICON_FAITH] Fé, com +1 de [ICON_SCIENCE] Ciência adicional para cada Campus adjacente, e +1 de [ICON_FAITH] Fé para cada Lugar Sagrado ajacente. [ICON_SCIENCE] Ciência e [ICON_FAITH] Fé adicionais conforme avança nas árvores tecnológicas e cívica."	),
 
 	("pt_BR",	"LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_CSE_DAGOBA_CHAPTER_HISTORY_PARA_1",		"Stupas, 'Dagobas' in Sinhalese, originated as pre-Buddhist tumuli in which sramanas were buried in a seated position called cetiya. After the parinirvana of the Buddha, his remains were cremated and the ashes divided and buried under eight mounds with two further mounds encasing the urn and the embers. The stupa was elaborated as Buddhism spread to other Asian countries, becoming, for example, the chörten of Tibet and the pagoda in East Asia. Stupas were built in Sri Lanka soon after Devanampiya Tissa of Anuradhapura converted to Buddhism. The first stupa to be built was the Thuparamaya. Later, many more were built over the years, some like the Jetavanaramaya in Anuradhapura being one of the tallest ancient structures in the world."	),
 
@@ -210,8 +210,8 @@ VALUES
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_AYNUK_NAME",		"{LOC_CIVILIZATION_CSE_AYNUK_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_AYNUK",						"{LOC_CIVILIZATION_CSE_AYNUK_NAME}"	),
 
-	("pt_BR",	"ADJ_CSE_AYNUK_COAST_FOOD",					"+{1_num} de [ICON_FOOD] Comida from the adjacent coastal {1_Num : plural 1?tile; other?tiles;}."		),
-	("pt_BR",	"ADJ_CSE_AYNUK_COAST_PRODUCTION",			"+{1_num} de [ICON_PRODUCTION] Produção from the adjacent coastal {1_Num : plural 1?tile; other?tiles;}."		),
+	("pt_BR",	"ADJ_CSE_AYNUK_COAST_FOOD",					"+{1_num} de [ICON_FOOD] Comida de {1_Num : plural 1?painel costeiro adjacente; other?painéis costeiros adjacentes;}."			),
+	("pt_BR",	"ADJ_CSE_AYNUK_COAST_PRODUCTION",			"+{1_num} de [ICON_PRODUCTION] Produção de {1_Num : plural 1?painel costeiro adjacente; other?painéis costeiros adjacentes;}."	),
 
 	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_AYNUK_CHAPTER_HISTORY_PARA_1",	"Aynuk, Arwad, or Arvad, also called Ruad Island – located in the Mediterranean Sea, is the only inhabited island in Syria. The town of Arwad covers the entire island. It is located 3 kilometres (1.9 mi) from Tartus (ancient Tortosa), Syria's second largest port. Today, it is mainly a fishing town. The name Arvad is noted in the Bible as the progenitor of the Arvadites, a Canaanite people."	),
 	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_AYNUK_CHAPTER_HISTORY_PARA_2",	"The island was settled in the early 2nd millennium BC by the Phoenicians. Under Phoenician control, it became an independent kingdom called Arvad Aradus or Jazirat (the latter term meaning 'island'). The Phoenician name for the city was probably Aynook. The city has been cited as one of the first known examples of a republic in the world, in which the people, rather than a monarch, are described as sovereign. In Greek it was known as Arados. The city also appears in ancient sources as Arpad and Arphad. The city was renamed Antiochia in Pieria by Antiochus I Soter. The island was important as a base for commercial ventures into the Orontes valley."	),
@@ -253,7 +253,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_BAIAE_ADJECTIVE",		"Baiae"		),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_BAIAE_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_BAIAE_NAME}"		),
 	("pt_BR",	"LOC_CSE_BAIAE_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_BAIAE_NAME}"	),
-	("pt_BR",	"LOC_CSE_BAIAE_TRAIT_DESCRIPTION",			"Entertainment Districts and Waterparks provide +1 de [ICON_FAVOR] Diplomatic Favor per turn."	),
+	("pt_BR",	"LOC_CSE_BAIAE_TRAIT_DESCRIPTION",			"Distritos de Entretenimento e Parque Aquático fornecem +1 de [ICON_FAVOR] Favor Diplomático por turno."	),
 
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_BAIAE_NAME",		"{LOC_CIVILIZATION_CSE_BAIAE_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_BAIAE",						"{LOC_CIVILIZATION_CSE_BAIAE_NAME}"	),
@@ -270,7 +270,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_BEIKTHANO_ADJECTIVE",		"Beikthanan"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_BEIKTHANO_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_BEIKTHANO_NAME}"		),
 	("pt_BR",	"LOC_CSE_BEIKTHANO_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_BEIKTHANO_NAME}"	),
-	("pt_BR",	"LOC_CSE_BEIKTHANO_TRAIT_DESCRIPTION",			"Your cities gain +3 [ICON_RANGED] Ranged Strength and +5 City [ICON_STRENGTH] Defense Strength for each level of walls constructed."	),
+	("pt_BR",	"LOC_CSE_BEIKTHANO_TRAIT_DESCRIPTION",			"Suas cidades ganham +3 [ICON_RANGED] de Força de Ataque a distância e +5 [ICON_STRENGTH] Força de defesa para cada nível de muralha construída."	),
 
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_BEIKTHANO_NAME",		"{LOC_CIVILIZATION_CSE_BEIKTHANO_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_BEIKTHANO",						"{LOC_CIVILIZATION_CSE_BEIKTHANO_NAME}"	),
@@ -285,7 +285,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_BUTUAN_ADJECTIVE",	"Butuan"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_BUTUAN_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_BUTUAN_NAME}"		),
 	("pt_BR",	"LOC_CSE_BUTUAN_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_BUTUAN_NAME}"	),
-	("pt_BR",	"LOC_CSE_BUTUAN_TRAIT_DESCRIPTION",			"Your land units gain +2 de [ICON_MOVEMENT] Movement when embarked and ignore additional [ICON_MOVEMENT] Movement costs from embarking and disembarking."	),
+	("pt_BR",	"LOC_CSE_BUTUAN_TRAIT_DESCRIPTION",			"Suas unidades terrestres ganham +2 de [ICON_MOVEMENT] Movimento quando enbarcadas e ignoram custos adicionais de [ICON_MOVEMENT] Movimento de embarcar e desembarcar."	),
 
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_BUTUAN_NAME",		"{LOC_CIVILIZATION_CSE_BUTUAN_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_BUTUAN",						"{LOC_CIVILIZATION_CSE_BUTUAN_NAME}"	),
@@ -305,7 +305,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_CATALHOYUK_ADJECTIVE",	"Catalhoyuk"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_CATALHOYUK_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_CATALHOYUK_NAME}"		),
 	("pt_BR",	"LOC_CSE_CATALHOYUK_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_CATALHOYUK_NAME}"	),
-	("pt_BR",	"LOC_CSE_CATALHOYUK_TRAIT_DESCRIPTION",			"Receive the [ICON_RESOURCE_CSE_LEATHER] Leather and [ICON_RESOURCE_CSE_WOOL] Wool Luxury resources (not tradeable), which provide 6 [ICON_AMENITIES] Amenities each."	),
+	("pt_BR",	"LOC_CSE_CATALHOYUK_TRAIT_DESCRIPTION",			"Receba os recursos de luxo [ICON_RESOURCE_CSE_LEATHER] Couro e [ICON_RESOURCE_CSE_WOOL] Lã (não negociáveis), que fornecem 6 [ICON_AMENITIES] Serviços cada."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_CATALHOYUK_NAME",		"{LOC_CIVILIZATION_CSE_CATALHOYUK_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_CATALHOYUK",						"{LOC_CIVILIZATION_CSE_CATALHOYUK_NAME}"	),
@@ -314,8 +314,8 @@ VALUES
 	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_CATALHOYUK_CHAPTER_HISTORY_PARA_2",	"Çatalhöyük is composed entirely of domestic buildings with no obvious public buildings. Some rooms have ornate murals, but the purpose of some rooms remains unclear. The people of Çatalhöyük buried their dead within the village, and human remains have been found in many places. There were no apparent social classes and little apparent social distinction based on gender. Upper levels of the cite reveal that the people were gaining agricultural skills. Peas were grown, and almonds, pistachios, and fruits were harvested nearby."	),
 	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_CATALHOYUK_CHAPTER_HISTORY_PARA_3",	"Çatalhöyük was first excavated by the late, controversial British archaeologist James Mellaart in 1958. After the Dorak affair (in which Mellaart published drawings of supposedly important Bronze Age artifacts that later went missing), he was banned from Turkey. The site lay idle until 1993, when further investigations began under Ian Hodder of the University of Cambridge. Hodder was a former student of Mellaart, and he used the site as his first real-world test of post-processual archaeology."	),
 
-	("pt_BR",	"LOC_RESOURCE_CSE_LEATHER_NAME",				"Leather"	),
-	("pt_BR",	"LOC_RESOURCE_CSE_WOOL_NAME",					"Wool"		),
+	("pt_BR",	"LOC_RESOURCE_CSE_LEATHER_NAME",				"Couro"	),
+	("pt_BR",	"LOC_RESOURCE_CSE_WOOL_NAME",					"Lã"		),
 
 	("pt_BR",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_CSE_LEATHER_CHAPTER_HISTORY_PARA_1",	"Leather is a durable and flexible material created by tanning animal rawhides, mostly cattle hide. It can be produced at manufacturing scales ranging from cottage industry to heavy industry. Leather is used to make various goods, including clothing (especially footwear), in bookbinding, and as a furniture covering. Due to its excellent resistance to abrasion and wind, leather found a use in rugged occupations. The enduring image of a cowboy in leather chaps gave way to the leather-jacketed and leather-helmeted aviator. When motorcycles were invented, some riders took to wearing heavy leather jackets to protect from road rash and wind blast; some also wear chaps or full leather pants to protect the lower body. Many sports still use leather equipment. Its flexibility facilitates forming and shaping it into balls and protective gear."	),
 	("pt_BR",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_CSE_WOOL_CHAPTER_HISTORY_PARA_1",	"Wool is the textile fiber obtained from sheep and other animals, including cashmere and mohair from goats, qiviut from muskoxen, from hide and fur clothing from bison, angora from rabbits, and other types of wool from camelids;[1] additionally, the Highland and the Mangalica breeds of cattle and swine, respectively, possess wooly coats. Wool consists of protein together with a few percent lipids. In this regard it is chemically quite distinct from the more dominant textile, cotton, which is mainly cellulose."	),
@@ -328,7 +328,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_CHAN_CHAN_ADJECTIVE",		"Chan Chan"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_CHAN_CHAN_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_CHAN_CHAN_NAME}"		),
 	("pt_BR",	"LOC_CSE_CHAN_CHAN_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_CHAN_CHAN_NAME}"	),
-	("pt_BR",	"LOC_CSE_CHAN_CHAN_TRAIT_DESCRIPTION",			"Your Palace provides double yields, [ICON_AMENITIES] Amenities, and [ICON_HOUSING] Housing. Specialty districts provide +50% of their native yield when adjacent to a Government Plaza, Entertainment Complex or Waterpark district."	),
+	("pt_BR",	"LOC_CSE_CHAN_CHAN_TRAIT_DESCRIPTION",			"Seu Palácio fornece o dobro de [ICON_PRODUCTION] Produção, [ICON_SCIENCE] Ciência, [ICON_CULTURE] Cultura, [ICON_GOLD] Ouro, [ICON_AMENITIES] Serviços e [ICON_HOUSING] Habitação. Distritos Especializados fornecem +50% do seu tipo de recurso quando adjacente a um Plaza Governamental, Complexo de Entretenimento ou Parque Aquático."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_CHAN_CHAN_NAME",		"{LOC_CIVILIZATION_CSE_CHAN_CHAN_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_CHAN_CHAN",						"{LOC_CIVILIZATION_CSE_CHAN_CHAN_NAME}"	),
@@ -347,7 +347,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_CHETRO_KETL_ADJECTIVE",		"Chacoan"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_CHETRO_KETL__DESCRIPTION",	"Cidade-Estado de {LOC_CIVILIZATION_CSE_CHETRO_KETL_NAME}"		),
 	("pt_BR",	"LOC_CSE_CHETRO_KETL_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_CHETRO_KETL_NAME}"	),
-	("pt_BR",	"LOC_CSE_CHETRO_KETL_TRAIT_DESCRIPTION",			"Your Builders may construct the Kiva unique improvement.[NEWLINE][NEWLINE]Kivas yield +2 de [ICON_FAITH] Fé and +0.5 [ICON_HOUSING] Housing, with additional [ICON_FAITH] Fé, [ICON_FOOD] Comida and [ICON_PRODUCTION] Produção from adjacent Grass and Plains tiles as you progress through the Civics and Technology trees. Must be built on Desert or Desert Hills tiles."	),
+	("pt_BR",	"LOC_CSE_CHETRO_KETL_TRAIT_DESCRIPTION",			"Seus construtores podem construir as melhorias Kiva.[NEWLINE][NEWLINE]Kivas fornecem +2 de [ICON_FAITH] Fé e +0.5 [ICON_HOUSING] Habitação, com [ICON_FAITH] Fé, [ICON_FOOD] Comida e [ICON_PRODUCTION] Produção adicionais de painés de Pradarias e Planícies adjacentes conforme progride nas árvores tecnológica e cívica. Deve ser construído em painéis de deserto."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_CHETRO_KETL_NAME",		"{LOC_CIVILIZATION_CSE_CHETRO_KETL_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_CHETRO_KETL",						"{LOC_CIVILIZATION_CSE_CHETRO_KETL_NAME}"	),
@@ -357,7 +357,7 @@ VALUES
 	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_CHETRO_KETL_CHAPTER_HISTORY_PARA_3",	"Chetro Ketl's purpose is widely debated but many archeologists believe the building was a place of large-scale ceremony that held an important position within the larger Chacoan system. It may have been occupied primarily by groups of priests and, during times of ritual, pilgrims from outlying communities. Archeologist Stephen H. Lekson believes Chetro Ketl was a palace inhabited by Chacoan royalty, and the scale of its construction was motivated by what architects call 'massing': building imposing structures with the intent to impress onlookers."	),
 	
 	("pt_BR",	"LOC_IMPROVEMENT_CSE_KIVA_NAME",					"Kiva"	),
-	("pt_BR",	"LOC_IMPROVEMENT_CSE_KIVA_DESCRIPTION",				"Unlocks the Builder ability to construct a Great Kiva.[NEWLINE][NEWLINE]Yields +2 de [ICON_FAITH] Fé and +0.5 [ICON_HOUSING] Housing, with additional [ICON_FAITH] Fé, [ICON_FOOD] Comida and [ICON_PRODUCTION] Produção from adjacent Grass and Plains tiles as you progress through the Civics and Technology trees. Must be built on Desert or Desert Hills tiles."	),
+	("pt_BR",	"LOC_IMPROVEMENT_CSE_KIVA_DESCRIPTION",				"Kivas fornecem +2 de [ICON_FAITH] Fé e +0.5 [ICON_HOUSING] Habitação, com [ICON_FAITH] Fé, [ICON_FOOD] Comida e [ICON_PRODUCTION] Produção adicionais de painés de Pradarias e Planícies adjacentes conforme progride nas árvores tecnológica e cívica. Deve ser construído em painéis de deserto."	),
 
 	("pt_BR",	"LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_CSE_KIVA_CHAPTER_HISTORY_PARA_1",		"A kiva is a room used by Puebloans for religious rituals and political meetings, many of them associated with the kachina belief system. Among the modern Hopi and most other Pueblo peoples, kivas are square-walled and underground, and are used for spiritual ceremonies. Great kivas differ from regular kivas, which archeologists call Chaco-style kivas, in several ways; first and foremost, great kivas are always much larger and deeper than Chaco-style kivas. Whereas the walls of great kivas always extend above the surrounding landscape, the walls of Chaco-style kivas do not, but are instead flush with the surrounding landscape. Chaco-style kivas are often found incorporated into the central room blocks of great houses, but great kivas are always separate from core structures. Great kivas almost always have a bench that encircles the inner space, but this feature is not found in Chaco-style kivas. Great kivas also tend to include floor vaults, which might have served as foot drums for ceremonial dancers, but Chaco-style kivas do not. Great kivas are believed to be the first public buildings constructed in the Mesa Verde region."	),
 
@@ -369,7 +369,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_DAKAR_ADJECTIVE",		"Dakar"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_DAKAR_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_DAKAR_NAME}"		),
 	("pt_BR",	"LOC_CSE_DAKAR_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_DAKAR_NAME}"	),
-	("pt_BR",	"LOC_CSE_DAKAR_TRAIT_DESCRIPTION",			"Buildings within your Harbor districts provide +1 de [ICON_GREATPERSON] Great Person Point toward [ICON_GREATMERCHANT] Great Merchants."	),
+	("pt_BR",	"LOC_CSE_DAKAR_TRAIT_DESCRIPTION",			"Edificações nos distritos de Porto fornecem +1 [ICON_GREATPERSON] Ponto de Grande Personalidades para [ICON_GREATMERCHANT] Grandes Mercadores."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_DAKAR_NAME",		"{LOC_CIVILIZATION_CSE_DAKAR_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_DAKAR",						"{LOC_CIVILIZATION_CSE_DAKAR_NAME}"	),
@@ -385,7 +385,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_DELOS_ADJECTIVE",		"Delosian"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_DELOS_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_DELOS_NAME}"		),
 	("pt_BR",	"LOC_CSE_DELOS_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_DELOS_NAME}"	),
-	("pt_BR",	"LOC_CSE_DELOS_TRAIT_DESCRIPTION",			"Flat tiles with breathtaking appeal double their terrain yields in cities with an Entertainment Complex or Waterpark district."	),
+	("pt_BR",	"LOC_CSE_DELOS_TRAIT_DESCRIPTION",			"Painéis sem colinas com apelo de tirar o fôlego fornecem o dobro dos seus recursos de terreno em cidades com um distrito de Complexo de Entretenimento ou Parque Aquático."	),
 
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_DELOS_NAME",		"{LOC_CIVILIZATION_CSE_DELOS_NAME}"	),	
 	("pt_BR",	"LOC_CITY_NAME_DELOS",						"{LOC_CIVILIZATION_CSE_DELOS_NAME}"	),
@@ -402,7 +402,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_DELPHI_ADJECTIVE",	"Delphine"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_DELPHI_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_DELPHI_NAME}"		),
 	("pt_BR",	"LOC_CSE_DELPHI_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_DELPHI_NAME}"	),
-	("pt_BR",	"LOC_CSE_DELPHI_TRAIT_DESCRIPTION",			"Wonders exert +2 Loyalty Pressure and trigger a culture bomb upon completion."	),
+	("pt_BR",	"LOC_CSE_DELPHI_TRAIT_DESCRIPTION",			"Maravilhas exercem +2 Pressão de Lealdade e geram uma explosão cultural quando completadas."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_DELPHI_NAME",		"{LOC_CIVILIZATION_CSE_DELPHI_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_DELPHI",						"{LOC_CIVILIZATION_CSE_DELPHI_NAME}"	),
@@ -418,7 +418,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_DJIBOUTI_ADJECTIVE",		"Djibouti"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_DJIBOUTI_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_DJIBOUTI_NAME}"		),
 	("pt_BR",	"LOC_CSE_DJIBOUTI_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_DJIBOUTI_NAME}"	),
-	("pt_BR",	"LOC_CSE_DJIBOUTI_TRAIT_DESCRIPTION",			"Shallow water tiles provide +1 de [ICON_FOOD] Comida. Additional +1 de [ICON_FOOD] Comida when you reach the Industrial Era."	),
+	("pt_BR",	"LOC_CSE_DJIBOUTI_TRAIT_DESCRIPTION",			"Painéis de água rasa fornecem +1 de [ICON_FOOD] Comida. +1 de [ICON_FOOD] Comida adicional quando você alcançar a Era Industrial."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_DJIBOUTI_NAME",		"{LOC_CIVILIZATION_CSE_DJIBOUTI_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_DJIBOUTI",						"{LOC_CIVILIZATION_CSE_DJIBOUTI_NAME}"	),
@@ -435,7 +435,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_DODONA_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_DODONA_NAME}"		),
 	("pt_BR",	"LOC_CSE_DODONA_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_DODONA_NAME}"	),
 
-	("pt_BR",	"LOC_CSE_DODONA_TRAIT_DESCRIPTION",			"[ICON_CIVICBOOSTED] Inspirations provide +10% of the cost for Civics during a [ICON_GLORY_GOLDEN_AGE] Golden Age, and additional Era Score during a [ICON_GLORY_DARK_AGE] Dark Age."	),
+	("pt_BR",	"LOC_CSE_DODONA_TRAIT_DESCRIPTION",			"[ICON_CIVICBOOSTED] Inspirações fornecem +10% do custo de Cívicos durante uma [ICON_GLORY_GOLDEN_AGE] Era Dourada, e Pontos de Era adicionais durante uma [ICON_GLORY_DARK_AGE] Era Negra."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_DODONA_NAME",		"{LOC_CIVILIZATION_CSE_DODONA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_DODONA",						"{LOC_CIVILIZATION_CSE_DODONA_NAME}"	),
@@ -452,7 +452,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_ETZANOA_ADJECTIVE",		"Etzanoan"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_ETZANOA__DESCRIPTION",	"Cidade-Estado de {LOC_CIVILIZATION_CSE_ETZANOA_NAME}"		),
 	("pt_BR",	"LOC_CSE_ETZANOA_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_ETZANOA_NAME}"	),
-	("pt_BR",	"LOC_CSE_ETZANOA_TRAIT_DESCRIPTION",			"Neighborhood districts receive +1 de [ICON_HOUSING] Housing for each adjacent district of the same type."	),
+	("pt_BR",	"LOC_CSE_ETZANOA_TRAIT_DESCRIPTION",			"Distritos de Bairro recebem mais +1 de [ICON_HOUSING] Habitação para cada distrito adjacente do mesmo tipo."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_ETZANOA_NAME",		"{LOC_CIVILIZATION_CSE_ETZANOA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_ETZANOA",						"{LOC_CIVILIZATION_CSE_ETZANOA_NAME}"	),
@@ -468,7 +468,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_GARAMA_ADJECTIVE",	"Garama"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_GARAMA_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_GARAMA_NAME}"		),
 	("pt_BR",	"LOC_CSE_GARAMA_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_GARAMA_NAME}"	),
-	("pt_BR",	"LOC_CSE_GARAMA_TRAIT_DESCRIPTION",			"+2 de [ICON_FOOD] Comida on Oases and adjacent land tiles. +1 de [ICON_FOOD] Comida on land tiles two away."	),
+	("pt_BR",	"LOC_CSE_GARAMA_TRAIT_DESCRIPTION",			"+2 de [ICON_FOOD] Comida em Oásis e painéis terrestres adjacentes. +1 de [ICON_FOOD] Comida em painéis terrestres a até 2 painéis de distância."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_GARAMA_NAME",		"{LOC_CIVILIZATION_CSE_GARAMA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_GARAMA",						"{LOC_CIVILIZATION_CSE_GARAMA_NAME}"	),
@@ -486,7 +486,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_GOBEKLI_TEPE_ADJECTIVE",		"Gobekli Tepe"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_GOBEKLI_TEPE_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_GOBEKLI_TEPE_NAME}"		),
 	("pt_BR",	"LOC_CSE_GOBEKLI_TEPE_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_GOBEKLI_TEPE_NAME}"	),
-	("pt_BR",	"LOC_CSE_GOBEKLI_TEPE_TRAIT_DESCRIPTION",			"Upon completing a building, receive [ICON_CULTURE] Cultura equal to 10% of the building's [ICON_PRODUCTION] Produção cost."	),
+	("pt_BR",	"LOC_CSE_GOBEKLI_TEPE_TRAIT_DESCRIPTION",			"Maravilhas fornecem +1 de [ICON_CULTURE] Cultura em [ICON_TRADEROUTE] Rotas Comerciais domésticas para esta cidade."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_GOBEKLI_TEPE_NAME",		"{LOC_CIVILIZATION_CSE_GOBEKLI_TEPE_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_GOBEKLI_TEPE",						"{LOC_CIVILIZATION_CSE_GOBEKLI_TEPE_NAME}"	),
@@ -503,8 +503,8 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_GUNDESHAPUR_ADJECTIVE",	"Gundeshapur"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_GUNDESHAPUR_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_GUNDESHAPUR_NAME}"		),
 	("pt_BR",	"LOC_CSE_GUNDESHAPUR_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_GUNDESHAPUR_NAME}"	),
-	("pt_BR",	"LOC_CSE_GUNDESHAPUR_TRAIT_DESCRIPTION",		"Receive two free [ICON_TECHBOOSTED] Eurekas upon entering a new era. Campus districts receive +1 de [ICON_SCIENCE] Ciência for every two adjacent districts."	),
-	("pt_BR",	"LOC_CSE_GUNDESHAPUR_CAMPUS_ADJACENCY",			"+{1_num} de [ICON_SCIENCE] Ciência from the adjacent {1_Num : plural 1?district; other?districts;}. (Gundeshapur)"		),
+	("pt_BR",	"LOC_CSE_GUNDESHAPUR_TRAIT_DESCRIPTION",		"Recebem 2 [ICON_TECHBOOSTED] Eurekas ao entrar em uma nova era. Distritos de Campus recebem +1 de [ICON_SCIENCE] Ciência para cada 2 distritos adjacentes."	),
+	("pt_BR",	"LOC_CSE_GUNDESHAPUR_CAMPUS_ADJACENCY",			"+{1_num} de [ICON_SCIENCE] Ciência dos distritos adjacentes. (Gundeshapur)"		),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_GUNDESHAPUR_NAME",	"{LOC_CIVILIZATION_CSE_GUNDESHAPUR_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_GUNDESHAPUR",					"{LOC_CIVILIZATION_CSE_GUNDESHAPUR_NAME}"	),
@@ -519,7 +519,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_HADAD_ADJECTIVE",		"Hadad"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_HADAD_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_HADAD_NAME}"		),
 	("pt_BR",	"LOC_CSE_HADAD_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_HADAD_NAME}"	),
-	("pt_BR",	"LOC_CSE_HADAD_TRAIT_DESCRIPTION",			"Cities with an established [ICON_GOVERNOR] Governor receive +2 de [ICON_AMENITIES] Amenities."	),
+	("pt_BR",	"LOC_CSE_HADAD_TRAIT_DESCRIPTION",			"Cidades com um [ICON_GOVERNOR] Governador estabelecido recebem +2 de [ICON_AMENITIES] Serviços."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_HADAD_NAME",		"{LOC_CIVILIZATION_CSE_HADAD_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_HADAD",						"{LOC_CIVILIZATION_CSE_HADAD_NAME}"	),
@@ -540,7 +540,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_HALIN_ADJECTIVE",		"Halin"		),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_HALIN_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_HALIN_NAME}"		),
 	("pt_BR",	"LOC_CSE_HALIN_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_HALIN_NAME}"	),
-	("pt_BR",	"LOC_CSE_HALIN_TRAIT_DESCRIPTION",			"Your cities produce +0.5 [ICON_FAITH] Fé per [ICON_CITIZEN] Population."	),
+	("pt_BR",	"LOC_CSE_HALIN_TRAIT_DESCRIPTION",			"Suas cidades produzem +0.5 de [ICON_FAITH] Fé por [ICON_CITIZEN] População."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_HALIN_NAME",		"{LOC_CIVILIZATION_CSE_HALIN_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_HALIN",						"{LOC_CIVILIZATION_CSE_HALIN_NAME}"	),
@@ -557,7 +557,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_HAVANA_ADJECTIVE",	"Havana"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_HAVANA_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_HAVANA_NAME}"		),
 	("pt_BR",	"LOC_CSE_HAVANA_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_HAVANA_NAME}"	),
-	("pt_BR",	"LOC_CSE_HAVANA_TRAIT_DESCRIPTION",			"Great Works of [ICON_GREATWORK_WRITING] Writing, [ICON_GREATWORK_LANDSCAPE] Art, and [ICON_GREATWORK_MUSIC] Music yield +2 de [ICON_GOLD] Ouro for each Harbor building in the city."	),
+	("pt_BR",	"LOC_CSE_HAVANA_TRAIT_DESCRIPTION",			"Grandes Obras de [ICON_GREATWORK_WRITING] Escrita, [ICON_GREATWORK_LANDSCAPE] Arte, and [ICON_GREATWORK_MUSIC] Música fornecem +2 de [ICON_GOLD] Ouro para cada edificação de Porto na cidade."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_HAVANA_NAME",		"{LOC_CIVILIZATION_CSE_HAVANA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_HAVANA",						"{LOC_CIVILIZATION_CSE_HAVANA_NAME}"	),
@@ -573,7 +573,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_HAZOR_ADJECTIVE",		"Hazor"		),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_HAZOR_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_HAZOR_NAME}"		),
 	("pt_BR",	"LOC_CSE_HAZOR_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_HAZOR_NAME}"	),
-	("pt_BR",	"LOC_CSE_HAZOR_TRAIT_DESCRIPTION",			"Units fight at full strength when [ICON_DAMAGED] Damaged."	),
+	("pt_BR",	"LOC_CSE_HAZOR_TRAIT_DESCRIPTION",			"Unidades lutam com máximo de força mesmo quando [ICON_DAMAGED] feridas."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_HAZOR_NAME",		"{LOC_CIVILIZATION_CSE_HAZOR_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_HAZOR",						"{LOC_CIVILIZATION_CSE_HAZOR_NAME}"	),
@@ -591,7 +591,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_HORMUZ_ADJECTIVE",	"Hormuz"		),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_HORMUZ_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_HORMUZ_NAME}"		),
 	("pt_BR",	"LOC_CSE_HORMUZ_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_HORMUZ_NAME}"	),
-	("pt_BR",	"LOC_CSE_HORMUZ_TRAIT_DESCRIPTION",			"Cities with a Harbor district cannot be put under [ICON_UNDERSIEGE] Siege."	),
+	("pt_BR",	"LOC_CSE_HORMUZ_TRAIT_DESCRIPTION",			"Cidades com um distrito de Porto não podem ser postas sob [ICON_UNDERSIEGE] Cerco."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_HORMUZ_NAME",		"{LOC_CIVILIZATION_CSE_HORMUZ_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_HORMUZ",						"{LOC_CIVILIZATION_CSE_HORMUZ_NAME}"	),
@@ -612,7 +612,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_HVALSEY_ADJECTIVE",		"Hvalsey"		),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_HVALSEY__DESCRIPTION",	"Cidade-Estado de {LOC_CIVILIZATION_CSE_HVALSEY_NAME}"			),
 	("pt_BR",	"LOC_CSE_HVALSEY_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_HVALSEY_NAME}"		),
-	("pt_BR",	"LOC_CSE_HVALSEY_TRAIT_DESCRIPTION",			"Fishing Boat improvements within 2 tiles of Tundra, Snow or Ice yield +1 de [ICON_FOOD] Comida and +1 de [ICON_PRODUCTION] Produção."	),
+	("pt_BR",	"LOC_CSE_HVALSEY_TRAIT_DESCRIPTION",			"Melhorias de Barcos Pesqueiros a 2 painéis de Tundra, Neve ou Gelo fornecem +1 de [ICON_FOOD] Comida e +1 de [ICON_PRODUCTION] Produção."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_HVALSEY_NAME",		"{LOC_CIVILIZATION_CSE_HVALSEY_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_HVALSEY",						"{LOC_CIVILIZATION_CSE_HVALSEY_NAME}"	),
@@ -628,7 +628,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_IQALUIT_ADJECTIVE",		"Iqaluit"		),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_IQALUIT__DESCRIPTION",	"Cidade-Estado de {LOC_CIVILIZATION_CSE_IQALUIT_NAME}"						),
 	("pt_BR",	"LOC_CSE_IQALUIT_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_IQALUIT_NAME}"					),
-	("pt_BR",	"LOC_CSE_IQALUIT_TRAIT_DESCRIPTION",			"Tundra and Snow tiles adjacent to coast yield +2 de [ICON_FOOD] Comida."	),
+	("pt_BR",	"LOC_CSE_IQALUIT_TRAIT_DESCRIPTION",			"Painéis de Tundra e Neve adjacentes a costa fornecem +2 de [ICON_FOOD] Comida."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_IQALUIT_NAME",		"{LOC_CIVILIZATION_CSE_IQALUIT_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_IQALUIT",						"{LOC_CIVILIZATION_CSE_IQALUIT_NAME}"	),
@@ -647,7 +647,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_IZAPA_ADJECTIVE",		"Izapa"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_IZAPA_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_IZAPA_NAME}"		),
 	("pt_BR",	"LOC_CSE_IZAPA_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_IZAPA_NAME}"	),
-	("pt_BR",	"LOC_CSE_IZAPA_TRAIT_DESCRIPTION",			"[ICON_TECHBOOSTED] Eurekas provide +10% of the cost for Technologies during a [ICON_GLORY_GOLDEN_AGE] Golden Age, and additional Era Score during a [ICON_GLORY_DARK_AGE] Dark Age."	),
+	("pt_BR",	"LOC_CSE_IZAPA_TRAIT_DESCRIPTION",			"[ICON_TECHBOOSTED] Eurekas fornecem +10% do custo de Tecnologias durante uma [ICON_GLORY_GOLDEN_AGE] Era Dourada, e Pontos de Era adicionais durante uma [ICON_GLORY_DARK_AGE] Era Negra."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_IZAPA_NAME",		"{LOC_CIVILIZATION_CSE_IZAPA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_IZAPA",						"{LOC_CIVILIZATION_CSE_IZAPA_NAME}"	),
@@ -664,7 +664,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_JOHANNESBURG_ADJECTIVE",		"Johannesburg"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_JOHANNESBURG_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_JOHANNESBURG_NAME}"		),
 	("pt_BR",	"LOC_CSE_JOHANNESBURG_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_JOHANNESBURG_NAME}"	),
-	("pt_BR",	"LOC_CSE_JOHANNESBURG_TRAIT_DESCRIPTION",			"Industrial Zone buildings with regional yields provide +2 de [ICON_PRODUCTION] Produção and +4 de [ICON_GOLD] Ouro to Cities within 6 tiles."	),
+	("pt_BR",	"LOC_CSE_JOHANNESBURG_TRAIT_DESCRIPTION",			"Edificações de Zona Insdustrial com bônus regionais fornecem +2 de [ICON_PRODUCTION] Produção e +4 de [ICON_GOLD] Ouro para cidades até 6 painéis de distância."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_JOHANNESBURG_NAME",		"{LOC_CIVILIZATION_CSE_JOHANNESBURG_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_JOHANNESBURG",						"{LOC_CIVILIZATION_CSE_JOHANNESBURG_NAME}"	),
@@ -680,7 +680,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_JOLO_ADJECTIVE",		"Jolo"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_JOLO_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_JOLO_NAME}"		),
 	("pt_BR",	"LOC_CSE_JOLO_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_JOLO_NAME}"	),
-	("pt_BR",	"LOC_CSE_JOLO_TRAIT_DESCRIPTION",			"Receive the [ICON_RESOURCE_CSE_ABACA] Abacá and [ICON_RESOURCE_CSE_MANGOSTEEN] Mangosteen Luxury resources (not tradeable), which provide 6 [ICON_AMENITIES] Amenities each."	),
+	("pt_BR",	"LOC_CSE_JOLO_TRAIT_DESCRIPTION",			"Recebe os recursos de luxo [ICON_RESOURCE_CSE_ABACA] Abacá e [ICON_RESOURCE_CSE_MANGOSTEEN] Mangostim (não negociáveis), que fornecem 6 [ICON_AMENITIES] Serviços cada."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_JOLO_NAME",		"{LOC_CIVILIZATION_CSE_JOLO_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_JOLO",						"{LOC_CIVILIZATION_CSE_JOLO_NAME}"	),
@@ -692,7 +692,7 @@ VALUES
 	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_JOLO_CHAPTER_HISTORY_PARA_5",	"In 1899 following the Treaty of Paris of 1898, sovereignty over the Philippines was transferred from Spain to the United States who attempted to forcibly incorporate the Muslim areas into the Philippine state. The American colonizers eventually took over the southern regions with force. The Sultanate of Sulu was abolished in 1936."	),
 
 	("pt_BR",	"LOC_RESOURCE_CSE_ABACA_NAME",				"Abacá"			),
-	("pt_BR",	"LOC_RESOURCE_CSE_MANGOSTEEN_NAME",			"Mangosteen"	),
+	("pt_BR",	"LOC_RESOURCE_CSE_MANGOSTEEN_NAME",			"Mangostim"	),
 
 	("pt_BR",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_CSE_ABACA_CHAPTER_HISTORY_PARA_1",		"Abacá is a species of banana native to the Philippines, grown as a commercial crop in the Philippines, Ecuador, and Costa Rica. The plant, also known as Manila hemp, has great economic importance, being harvested for its fiber, also called Manila hemp, extracted from the leaf-stems. The plant grows to 13–22 feet (4.0–6.7 m), and averages about 12 feet (3.7 m). The fiber was originally used for making twines and ropes; now most is pulped and used in a variety of specialized paper products including tea bags, filter paper and banknotes. Due to its strength, it is a sought after product and is the strongest of the natural fibers."	),
 	("pt_BR",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_CSE_MANGOSTEEN_CHAPTER_HISTORY_PARA_1",	"Mangosteen is a native plant to Southeast Asia. Highly valued for its juicy, delicate texture and slightly sweet and sour flavour, the mangosteen has been cultivated in Malaysia, Borneo, Sumatra, Mainland Southeast Asia, and the Philippines since ancient times. The 15th-century Chinese record Yingya Shenglan described mangosteen as mang-chi-shih (derived from Malay Language manggis), a native plant of Southeast Asia of white flesh with delectable sweet and sour taste. There is a legend about Queen Victoria offering a reward of 100 pounds sterling to anyone who could deliver to her the fresh fruit. Although this legend can be traced to a 1930 publication by the fruit explorer, David Fairchild, it is not substantiated by any known historical document, yet is probably responsible for the uncommon designation of mangosteen as the 'Queen of Fruit'."	),
@@ -705,7 +705,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_KADESH_ADJECTIVE",	"Kadesh"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_KADESH_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_KADESH_NAME}"		),
 	("pt_BR",	"LOC_CSE_KADESH_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_KADESH_NAME}"	),
-	("pt_BR",	"LOC_CSE_KADESH_TRAIT_DESCRIPTION",			"Your heavy cavalry units gain the ability to push defending units back."	),
+	("pt_BR",	"LOC_CSE_KADESH_TRAIT_DESCRIPTION",			"Suas unidades de Cavalaria Pesada ganham a habilidade de empurrar unidades defensoras."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_KADESH_NAME",		"{LOC_CIVILIZATION_CSE_KADESH_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_KADESH",						"{LOC_CIVILIZATION_CSE_KADESH_NAME}"	),
@@ -728,7 +728,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_KANNAUJ_ADJECTIVE",	"Kannauj"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_KANNAUJ_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_KANNAUJ_NAME}"		),
 	("pt_BR",	"LOC_CSE_KANNAUJ_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_KANNAUJ_NAME}"	),
-	("pt_BR",	"LOC_CSE_KANNAUJ_TRAIT_DESCRIPTION",		"No war weariness from combat in your territory."	),
+	("pt_BR",	"LOC_CSE_KANNAUJ_TRAIT_DESCRIPTION",		"Você não acumula fadiga de guerra por combate no teu território."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_KANNAUJ_NAME",	"{LOC_CIVILIZATION_CSE_KANNAUJ_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_KANNAUJ",					"{LOC_CIVILIZATION_CSE_KANNAUJ_NAME}"	),
@@ -744,7 +744,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_KATARAGAMA_ADJECTIVE",	"Kataragama"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_KATARAGAMA_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_KATARAGAMA_NAME}"		),
 	("pt_BR",	"LOC_CSE_KATARAGAMA_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_KATARAGAMA_NAME}"	),
-	("pt_BR",	"LOC_CSE_KATARAGAMA_TRAIT_DESCRIPTION",			"Fresh water tiles and those adjacent yield +1 de [ICON_FAITH] Fé."	),
+	("pt_BR",	"LOC_CSE_KATARAGAMA_TRAIT_DESCRIPTION",			"Painéis de água doce e adjacentes fornecem +1 de [ICON_FAITH] Fé."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_KATARAGAMA_NAME",		"{LOC_CIVILIZATION_CSE_KATARAGAMA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_KATARAGAMA",						"{LOC_CIVILIZATION_CSE_KATARAGAMA_NAME}"	),
@@ -763,7 +763,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_KELANIYA_ADJECTIVE",		"Kelaniya"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_KELANIYA_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_KELANIYA_NAME}"		),
 	("pt_BR",	"LOC_CSE_KELANIYA_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_KELANIYA_NAME}"	),
-	("pt_BR",	"LOC_CSE_KELANIYA_TRAIT_DESCRIPTION",			"Great Works of [ICON_GREATWORK_LANDSCAPE] Art yield +2 de [ICON_FAITH] Fé and Great Works of [ICON_GREATWORK_WRITING] Writing yield +1 de [ICON_CULTURE] Cultura."	),
+	("pt_BR",	"LOC_CSE_KELANIYA_TRAIT_DESCRIPTION",			"Grandes Obras de [ICON_GREATWORK_LANDSCAPE] Arte fornecem +2 de [ICON_FAITH] Fé e Grandes Obras de [ICON_GREATWORK_WRITING] Escrita fornecem +1 de [ICON_CULTURE] Cultura."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_KELANIYA_NAME",		"{LOC_CIVILIZATION_CSE_KELANIYA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_KELANIYA",						"{LOC_CIVILIZATION_CSE_KELANIYA_NAME}"	),
@@ -782,7 +782,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_KUHIKUGU_ADJECTIVE",		"Kuhikugan"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_KUHIKUGU_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_KUHIKUGU_NAME}"		),
 	("pt_BR",	"LOC_CSE_KUHIKUGU_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_KUHIKUGU_NAME}"	),
-	("pt_BR",	"LOC_CSE_KUHIKUGU_TRAIT_DESCRIPTION",			"Farms built adjacent to rainforest yield +1 de [ICON_FOOD] Comida and +2 de [ICON_GOLD] Ouro."	),
+	("pt_BR",	"LOC_CSE_KUHIKUGU_TRAIT_DESCRIPTION",			"Fazendas construídas adjacentes a Florestas Tropicais fornecem +1 de [ICON_FOOD] Comida e +2 de [ICON_GOLD] Ouro."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_KUHIKUGU_NAME",		"{LOC_CIVILIZATION_CSE_KUHIKUGU_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_KUHIKUGU",						"{LOC_CIVILIZATION_CSE_KUHIKUGU_NAME}"	),
@@ -799,7 +799,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_LIMA_ADJECTIVE",		"Lima"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_LIMA_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_LIMA_NAME}"		),
 	("pt_BR",	"LOC_CSE_LIMA_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_LIMA_NAME}"	),
-	("pt_BR",	"LOC_CSE_LIMA_TRAIT_DESCRIPTION",			"Your cities may build one more district than the [ICON_CITIZEN] Population would allow, if it has a Campus. Receive +50% [ICON_PRODUCTION] Produção toward Campus districts."	),
+	("pt_BR",	"LOC_CSE_LIMA_TRAIT_DESCRIPTION",			"Suas cidades podem construir um distrito a mais que a sua [ICON_CITIZEN] População permitiria se possuir um Campus. Recebe +50% de [ICON_PRODUCTION] Produção para distritos de Campus."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_LIMA_NAME",		"{LOC_CIVILIZATION_CSE_LIMA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_LIMA",						"{LOC_CIVILIZATION_CSE_LIMA_NAME}"	),
@@ -815,7 +815,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MACAU_ADJECTIVE",		"Macau"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MACAU_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_MACAU_NAME}"		),
 	("pt_BR",	"LOC_CSE_MACAU_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_MACAU_NAME}"	),
-	("pt_BR",	"LOC_CSE_MACAU_TRAIT_DESCRIPTION",			"+25% [ICON_TOURISM] Tourism toward civilizations to which you have a [ICON_TRADEROUTE] Trade Route."	),
+	("pt_BR",	"LOC_CSE_MACAU_TRAIT_DESCRIPTION",			"+25% de [ICON_TOURISM] Turismo para civilizações com a qual você tenha uma [ICON_TRADEROUTE] Rota Comercial."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_MACAU_NAME",		"{LOC_CIVILIZATION_CSE_MACAU_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_MACAU",						"{LOC_CIVILIZATION_CSE_MACAU_NAME}"	),
@@ -831,7 +831,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MAI_ADJECTIVE",	"Ma'i"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MAI_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_MAI_NAME}"		),
 	("pt_BR",	"LOC_CSE_MAI_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_MAI_NAME}"	),
-	("pt_BR",	"LOC_CSE_MAI_TRAIT_DESCRIPTION",		"Receive the [ICON_RESOURCE_CSE_BEESWAX] Beeswax and [ICON_RESOURCE_CSE_BETEL_NUT] Betel Nut Luxury resources (not tradeable), which provide 6 [ICON_AMENITIES] Amenities each."	),
+	("pt_BR",	"LOC_CSE_MAI_TRAIT_DESCRIPTION",		"Recebe os recursos de luxo [ICON_RESOURCE_CSE_BEESWAX] Cera de Abelha and [ICON_RESOURCE_CSE_BETEL_NUT] Noz de Areque (não negociáveis), que fornecem 6 [ICON_AMENITIES] Serviços cada."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_MAI_NAME",	"{LOC_CIVILIZATION_CSE_MAI_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_MAI",					"{LOC_CIVILIZATION_CSE_MAI_NAME}"	),
@@ -839,8 +839,8 @@ VALUES
 	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MAI_CHAPTER_HISTORY_PARA_1",	"Maingmaw was founded some time in the first millenium BC, and was one of the largest ancient cities in the region. It was protected by three walls - an outer ring, a square inner wall, and then another circular keep. A canal ran through the city."	),
 	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MAI_CHAPTER_HISTORY_PARA_2",	"In the 19th century, the Nandawya Paya temple was built in the centre of the ancient city site, possibly on top of an old temple ruin."	),
 
-	("pt_BR",	"LOC_RESOURCE_CSE_BEESWAX_NAME",		"Beeswax"		),
-	("pt_BR",	"LOC_RESOURCE_CSE_BETEL_NUT_NAME",		"Betel Nut"		),
+	("pt_BR",	"LOC_RESOURCE_CSE_BEESWAX_NAME",		"Cera de Abelha"		),
+	("pt_BR",	"LOC_RESOURCE_CSE_BETEL_NUT_NAME",		"Noz de Areque"		),
 
 	("pt_BR",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_CSE_BEESWAX_CHAPTER_HISTORY_PARA_1",		"Beeswax (cera alba) is a natural wax produced by honey bees of the genus Apis. The wax is formed into scales by eight wax-producing glands in the abdominal segments of worker bees, which discard it in or at the hive. The hive workers collect and use it to form cells for honey storage and larval and pupal protection within the beehive. Beeswax has been used since prehistory as the first plastic, as a lubricant and waterproofing agent, in lost wax casting of metals and glass, as a polish for wood and leather and for making candles, as an ingredient in cosmetics and as an artistic medium in encaustic painting."	),
 	("pt_BR",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_CSE_BETEL_NUT_CHAPTER_HISTORY_PARA_1",	"The betel, or areca,  nut is the fruit of the areca palm, which grows in much of the tropical Pacific, Southeast and South Asia, and parts of east Africa. It is commonly referred to as betel nut so it is easily confused with betel leaves that are often used to wrap it (paan). The term areca originated from the Kannada word adike and dates from the 16th century, when Dutch and Portuguese sailors took the nut from Kerala to Europe."	),
@@ -853,7 +853,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MAINGMAW_ADJECTIVE",		"Maingmaw"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MAINGMAW_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_MAINGMAW_NAME}"		),
 	("pt_BR",	"LOC_CSE_MAINGMAW_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_MAINGMAW_NAME}"	),
-	("pt_BR",	"LOC_CSE_MAINGMAW_TRAIT_DESCRIPTION",			"Improved tiles adjacent to a river provide +1 de [ICON_FOOD] Comida and +1 de [ICON_GOLD] Ouro."	),
+	("pt_BR",	"LOC_CSE_MAINGMAW_TRAIT_DESCRIPTION",			"Painéis melhorados adjacentes a um rio fornecem +1 de [ICON_FOOD] Comida e +1 de [ICON_GOLD] Ouro."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_MAINGMAW_NAME",		"{LOC_CIVILIZATION_CSE_MAINGMAW_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_MAINGMAW",						"{LOC_CIVILIZATION_CSE_MAINGMAW_NAME}"	),
@@ -869,7 +869,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MARRAKECH_ADJECTIVE",		"Marrakech"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MARRAKECH_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_MARRAKECH_NAME}"		),
 	("pt_BR",	"LOC_CSE_MARRAKECH_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_MARRAKECH_NAME}"	),
-	("pt_BR",	"LOC_CSE_MARRAKECH_TRAIT_DESCRIPTION",			"Your builders may construct the Riad unique improvement."	),
+	("pt_BR",	"LOC_CSE_MARRAKECH_TRAIT_DESCRIPTION",			"Seus construtores podem construir a melhoria Riad."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_MARRAKECH_NAME",		"{LOC_CIVILIZATION_CSE_MARRAKECH_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_MARRAKECH",						"{LOC_CIVILIZATION_CSE_MARRAKECH_NAME}"	),
@@ -890,7 +890,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MEGIDDO_ADJECTIVE",		"Megiddo"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MEGIDDO__DESCRIPTION",	"Cidade-Estado de {LOC_CIVILIZATION_CSE_MEGIDDO_NAME}"		),
 	("pt_BR",	"LOC_CSE_MEGIDDO_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_MEGIDDO_NAME}"	),
-	("pt_BR",	"LOC_CSE_MEGIDDO_TRAIT_DESCRIPTION",			"Encampment districts provide +1 de [ICON_PRODUCTION] Produção and +2 de [ICON_GOLD] Ouro on international [ICON_TRADEROUTE] Trade Routes starting in their City."	),
+	("pt_BR",	"LOC_CSE_MEGIDDO_TRAIT_DESCRIPTION",			"Acampamentos fornecem +1 de [ICON_PRODUCTION] Produção e +2 de [ICON_GOLD] Ouro em [ICON_TRADEROUTE] Rotas Comerciais começando na sua cidade."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_MEGIDDO_NAME",		"{LOC_CIVILIZATION_CSE_MEGIDDO_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_MEGIDDO",						"{LOC_CIVILIZATION_CSE_MEGIDDO_NAME}"	),
@@ -907,7 +907,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MEHRGARH_ADJECTIVE",		"Mehgarh"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MEHRGARH_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_MEHRGARH_NAME}"		),
 	("pt_BR",	"LOC_CSE_MEHRGARH_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_MEHRGARH_NAME}"	),
-	("pt_BR",	"LOC_CSE_MEHRGARH_TRAIT_DESCRIPTION",			"Receive +25% yields from plot harvest and feature removals."	),
+	("pt_BR",	"LOC_CSE_MEHRGARH_TRAIT_DESCRIPTION",			"Recebe +25% de recursos de colheita de recursos e remoção de florestas, florestas tropicais e pântanos."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_MEHRGARH_NAME",		"{LOC_CIVILIZATION_CSE_MEHRGARH_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_MEHRGARH",						"{LOC_CIVILIZATION_CSE_MEHRGARH_NAME}"	),
@@ -923,17 +923,17 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MOMBASA_ADJECTIVE",		"Mombasa"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MOMBASA__DESCRIPTION",	"Cidade-Estado de {LOC_CIVILIZATION_CSE_MOMBASA_NAME}"		),
 	("pt_BR",	"LOC_CSE_MOMBASA_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_MOMBASA_NAME}"	),
-	("pt_BR",	"LOC_CSE_MOMBASA_TRAIT_DESCRIPTION",			"Specialty districts receive minor adjacency bonuses from coastal tiles."	),
+	("pt_BR",	"LOC_CSE_MOMBASA_TRAIT_DESCRIPTION",			"Distritos Especializados recebem bonus de adjacência menor de painéis costeiros."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_MOMBASA_NAME",		"{LOC_CIVILIZATION_CSE_MOMBASA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_MOMBASA",						"{LOC_CIVILIZATION_CSE_MOMBASA_NAME}"	),
 
-	("pt_BR",	"LOC_CSE_MOMBASA_FAITH",						"+{1_num} de [ICON_FAITH] Fé from the adjacent coastal {1_Num : plural 1?tile; other?tiles;}."	),
-	("pt_BR",	"LOC_CSE_MOMBASA_SCIENCE",						"+{1_num} de [ICON_SCIENCE] Ciência from the adjacent coastal {1_Num : plural 1?tile; other?tiles;}."	),
-	("pt_BR",	"LOC_CSE_MOMBASA_CULTURE",						"+{1_num} de [ICON_CULTURE] Cultura from the adjacent coastal {1_Num : plural 1?tile; other?tiles;}."	),
-	("pt_BR",	"LOC_CSE_MOMBASA_PRODUCTION",					"+{1_num} de [ICON_PRODUCTION] Produção from the adjacent coastal {1_Num : plural 1?tile; other?tiles;}."	),
-	("pt_BR",	"LOC_CSE_MOMBASA_FOOD",							"+{1_num} de [ICON_FOOD] Comida from the adjacent coastal {1_Num : plural 1?tile; other?tiles;}."	),
-	("pt_BR",	"LOC_CSE_MOMBASA_GOLD",							"+{1_num} de [ICON_GOLD] Ouro from the adjacent coastal {1_Num : plural 1?tile; other?tiles;}."	),
+	("pt_BR",	"LOC_CSE_MOMBASA_FAITH",						"+{1_num} de [ICON_FAITH] Fé de painéis costeiros."	),
+	("pt_BR",	"LOC_CSE_MOMBASA_SCIENCE",						"+{1_num} de [ICON_SCIENCE] Ciência de painéis costeiros."	),
+	("pt_BR",	"LOC_CSE_MOMBASA_CULTURE",						"+{1_num} de [ICON_CULTURE] Cultura de painéis costeiros."	),
+	("pt_BR",	"LOC_CSE_MOMBASA_PRODUCTION",					"+{1_num} de [ICON_PRODUCTION] Produção de painéis costeiros."	),
+	("pt_BR",	"LOC_CSE_MOMBASA_FOOD",							"+{1_num} de [ICON_FOOD] Comida de painéis costeiros."	),
+	("pt_BR",	"LOC_CSE_MOMBASA_GOLD",							"+{1_num} de [ICON_GOLD] Ouro de painéis costeiros."	),
 
 	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MOMBASA_CHAPTER_HISTORY_PARA_1",	"Mombasa is the second largest city of Kenya. It is a regional cultural and economic hub with a large port and international airport. Additionally, its location on the east coast of Kenya has made it a strategic trading port throughout its history. The exact age of Mombasa is unknown but it has a long history."	),
 	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_MOMBASA_CHAPTER_HISTORY_PARA_2",	"Mombasa’s founding is associated with the legendary figures Mwana Mkisi and Shehe Mvita. Most early information on the city come from Portuguese chroniclers writing in the 16th century. However, the Moroccan scholar and traveler Ibn Battuta also visited the area and wrote of it, but he only stayed for a single night. He noted their mosques were wooden and expertly built."	),
@@ -947,7 +947,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MONACO_ADJECTIVE",	"Monaco"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MONACO_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_MONACO_NAME}"		),
 	("pt_BR",	"LOC_CSE_MONACO_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_MONACO_NAME}"	),
-	("pt_BR",	"LOC_CSE_MONACO_TRAIT_DESCRIPTION",			"Buildings within Entertainment Complex or Water Park districts receive +2 de [ICON_TOURISM] Tourism and enough [ICON_GOLD] Ouro to pay for their maintenance."	),
+	("pt_BR",	"LOC_CSE_MONACO_TRAIT_DESCRIPTION",			"Edificações dos distritos Complexo de Entretenimento e Parque Aquático recebem +2 de [ICON_TOURISM] Turismo e [ICON_GOLD] Ouro suficiente para pagar a sua manutenção."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_MONACO_NAME",		"{LOC_CIVILIZATION_CSE_MONACO_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_MONACO",						"{LOC_CIVILIZATION_CSE_MONACO_NAME}"	),
@@ -964,7 +964,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MZIZIMA_ADJECTIVE",		"Mzizima"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_MZIZIMA__DESCRIPTION",	"Cidade-Estado de {LOC_CIVILIZATION_CSE_MZIZIMA_NAME}"		),
 	("pt_BR",	"LOC_CSE_MZIZIMA_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_MZIZIMA_NAME}"	),
-	("pt_BR",	"LOC_CSE_MZIZIMA_TRAIT_DESCRIPTION",			"Your cities with an established [ICON_GOVERNOR] Governor receive +15% [ICON_CITIZEN] Population Growth."	),
+	("pt_BR",	"LOC_CSE_MZIZIMA_TRAIT_DESCRIPTION",			"Suas cidades com [ICON_GOVERNOR] Governador recebem +15% de Crescimento de [ICON_CITIZEN] População."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_MZIZIMA_NAME",		"{LOC_CIVILIZATION_CSE_MZIZIMA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_MZIZIMA",						"{LOC_CIVILIZATION_CSE_MZIZIMA_NAME}"	),
@@ -980,7 +980,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_NALANDA_ADJECTIVE",		"Nalanda"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_NALANDA__DESCRIPTION",	"Cidade-Estado de {LOC_CIVILIZATION_CSE_NALANDA_NAME}"		),
 	("pt_BR",	"LOC_CSE_NALANDA_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_NALANDA_NAME}"	),
-	("pt_BR",	"LOC_CSE_NALANDA_TRAIT_DESCRIPTION",			"Happy cities receive +5% [ICON_FAITH] Fé with a Campus, and +5% [ICON_SCIENCE] Ciência with a Holy Site, each increasing to +10% in Ecstatic cities."	),
+	("pt_BR",	"LOC_CSE_NALANDA_TRAIT_DESCRIPTION",			"Cidades Felizes recebem +5% de [ICON_FAITH] Fé se tiverem um Campus, e +5% de [ICON_SCIENCE] Ciência se tiverem um Lugar Sagrado. Cada um destes bobus aumenta para +10% em cidades em Êxtase."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_NALANDA_NAME",		"{LOC_CIVILIZATION_CSE_NALANDA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_NALANDA",						"{LOC_CIVILIZATION_CSE_NALANDA_NAME}"	),
@@ -997,7 +997,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_NASSAU_ADJECTIVE",		"Nassau"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_NASSAU__DESCRIPTION",	"Cidade-Estado de {LOC_CIVILIZATION_CSE_NASSAU_NAME}"		),
 	("pt_BR",	"LOC_CSE_NASSAU_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_NASSAU_NAME}"	),
-	("pt_BR",	"LOC_CSE_NASSAU_TRAIT_DESCRIPTION",				"Yields from plundering sea [ICON_TRADEROUTE] Trade Routes are doubled."	),
+	("pt_BR",	"LOC_CSE_NASSAU_TRAIT_DESCRIPTION",				"Saques de [ICON_TRADEROUTE] Rotas Comerciais marítmas são dobrados."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_NASSAU_NAME",			"{LOC_CIVILIZATION_CSE_NASSAU_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_NASSAU",							"{LOC_CIVILIZATION_CSE_NASSAU_NAME}"	),
@@ -1014,7 +1014,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_PALMYRA_ADJECTIVE",		"Palmyrene"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_PALMYRA__DESCRIPTION",	"Cidade-Estado de {LOC_CIVILIZATION_CSE_PALMYRA_NAME}"		),
 	("pt_BR",	"LOC_CSE_PALMYRA_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_PALMYRA_NAME}"	),
-	("pt_BR",	"LOC_CSE_PALMYRA_TRAIT_DESCRIPTION",			"Holy Site buildings provide +1 de [ICON_GOLD] Ouro to their Cities for each foreign [ICON_TRADEROUTE] Trade Route passing through."	),
+	("pt_BR",	"LOC_CSE_PALMYRA_TRAIT_DESCRIPTION",			"Edificações de Lugar Sagrado fornecem +1 de [ICON_GOLD] Ouro para suas cidades para cada [ICON_TRADEROUTE] Trade Route estrangeira passando por ela."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_PALMYRA_NAME",		"{LOC_CIVILIZATION_CSE_PALMYRA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_PALMYRA",						"{LOC_CIVILIZATION_CSE_PALMYRA_NAME}"	),
@@ -1031,7 +1031,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_PHASIS_ADJECTIVE",	"Phasian"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_PHASIS_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_PHASIS_NAME}"		),
 	("pt_BR",	"LOC_CSE_PHASIS_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_PHASIS_NAME}"	),
-	("pt_BR",	"LOC_CSE_PHASIS_TRAIT_DESCRIPTION",			"Forest tiles yield +1 de [ICON_PRODUCTION] Produção if adjacent to at least two other Forest tiles. Lumber Mills yield +2 de [ICON_GOLD] Ouro when adjacent to a river."	),
+	("pt_BR",	"LOC_CSE_PHASIS_TRAIT_DESCRIPTION",			"Painéis de floresta recebem +1 de [ICON_PRODUCTION] Produção se estiverem adjacentes a pelo menos 2 outros painéis de florestas. Serrarias recebem +2 de [ICON_GOLD] Ouro quando adjacente a um rio."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_PHASIS_NAME",		"{LOC_CIVILIZATION_CSE_PHASIS_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_PHASIS",						"{LOC_CIVILIZATION_CSE_PHASIS_NAME}"	),
@@ -1048,7 +1048,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_PORT_ROYAL_ADJECTIVE",		"Port Royal"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_PORT_ROYAL__DESCRIPTION",		"Cidade-Estado de {LOC_CIVILIZATION_CSE_PORT_ROYAL_NAME}"		),
 	("pt_BR",	"LOC_CSE_PORT_ROYAL_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_PORT_ROYAL_NAME}"	),
-	("pt_BR",	"LOC_CSE_PORT_ROYAL_TRAIT_DESCRIPTION",				"[ICON_TRADEROUTE] Trade Routes yield +1 de [ICON_GOLD] Ouro and +1 de [ICON_PRODUCTION] Produção for each Plantation at the destination."	),
+	("pt_BR",	"LOC_CSE_PORT_ROYAL_TRAIT_DESCRIPTION",				"[ICON_TRADEROUTE] Rotas Comerciais fornecem +1 de [ICON_GOLD] Ouro e +1 de [ICON_PRODUCTION] Produção para cada Plantação no destino."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_PORT_ROYAL_NAME",			"{LOC_CIVILIZATION_CSE_PORT_ROYAL_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_PORT_ROYAL",							"{LOC_CIVILIZATION_CSE_PORT_ROYAL_NAME}"	),
@@ -1065,7 +1065,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_QATNA_ADJECTIVE",		"Qatna"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_QATNA_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_QATNA_NAME}"		),
 	("pt_BR",	"LOC_CSE_QATNA_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_QATNA_NAME}"	),
-	("pt_BR",	"LOC_CSE_QATNA_TRAIT_DESCRIPTION",			"Industrial Zone buildings may be purchased with [ICON_FAITH] Fé and provide +1 de [ICON_PRODUCTION] Produção."	),
+	("pt_BR",	"LOC_CSE_QATNA_TRAIT_DESCRIPTION",			"Edificações da Zona Comercial podem ser comprados com [ICON_FAITH] Fé e fornecem +1 de [ICON_PRODUCTION] Produção."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_QATNA_NAME",		"{LOC_CIVILIZATION_CSE_QATNA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_QATNA",						"{LOC_CIVILIZATION_CSE_QATNA_NAME}"	),
@@ -1086,7 +1086,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SALE_ADJECTIVE",		"Salé"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SALE_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_SALE_NAME}"		),
 	("pt_BR",	"LOC_CSE_SALE_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_SALE_NAME}"	),
-	("pt_BR",	"LOC_CSE_SALE_TRAIT_DESCRIPTION",			"Naval Raider units gain an extra attack."	),
+	("pt_BR",	"LOC_CSE_SALE_TRAIT_DESCRIPTION",			"Unidades de Naval Raider ganham um ataque extra."	),
 
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_SALE_NAME",		"{LOC_CIVILIZATION_CSE_SALE_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_SALE",						"{LOC_CIVILIZATION_CSE_SALE_NAME}"	),
@@ -1107,7 +1107,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SAMARQAND_ADJECTIVE",			"Samarqand"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SAMARQAND__DESCRIPTION",		"Cidade-Estado de {LOC_CIVILIZATION_CSE_SAMARQAND_NAME}"		),
 	("pt_BR",	"LOC_CSE_SAMARQAND_TRAIT_NAME",						"{LOC_CIVILIZATION_CSE_SAMARQAND_NAME}"	),
-	("pt_BR",	"LOC_CSE_SAMARQAND_TRAIT_DESCRIPTION",				"Your Civilization gains +2% [ICON_SCIENCE] Ciência for each [ICON_GREATPERSON] Great Person it has ever earned, up to a total of +30%."	),
+	("pt_BR",	"LOC_CSE_SAMARQAND_TRAIT_DESCRIPTION",				"Sua civilização ganha +2% de [ICON_SCIENCE] Ciência para cada [ICON_GREATPERSON] Grande Personalidade que tenha recebido, até um total de +30%."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_SAMARQAND_NAME",			"{LOC_CIVILIZATION_CSE_SAMARQAND_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_SAMARQAND",							"{LOC_CIVILIZATION_CSE_SAMARQAND_NAME}"	),
@@ -1125,7 +1125,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SANAA_ADJECTIVE",			"Sana'a"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SANAA__DESCRIPTION",		"Cidade-Estado de {LOC_CIVILIZATION_CSE_SANAA_NAME}"		),
 	("pt_BR",	"LOC_CSE_SANAA_TRAIT_NAME",						"{LOC_CIVILIZATION_CSE_SANAA_NAME}"	),
-	("pt_BR",	"LOC_CSE_SANAA_TRAIT_DESCRIPTION",				"[ICON_TRADEROUTE] Trade Routes yield +1 de [ICON_FOOD] Comida for each domestic [ICON_TRADINGPOST] Trading Post they pass through."	),
+	("pt_BR",	"LOC_CSE_SANAA_TRAIT_DESCRIPTION",				"[ICON_TRADEROUTE] Rotas Comerciais fornecem +1 de [ICON_FOOD] Comida para cada [ICON_TRADINGPOST] Posto Comercial doméstico que eles passam."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_SANAA_NAME",			"{LOC_CIVILIZATION_CSE_SANAA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_SANAA",							"{LOC_CIVILIZATION_CSE_SANAA_NAME}"	),
@@ -1142,7 +1142,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SEUTHOPOLIS_ADJECTIVE",			"Seuthopolis"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SEUTHOPOLIS_DESCRIPTION",			"{LOC_CIVILIZATION_CSE_SEUTHOPOLIS_NAME}"		),
 	("pt_BR",	"LOC_CSE_SEUTHOPOLIS_TRAIT_NAME",						"{LOC_CIVILIZATION_CSE_SEUTHOPOLIS_NAME}"	),
-	("pt_BR",	"LOC_CSE_SEUTHOPOLIS_TRAIT_DESCRIPTION",				"Eliminating an enemy unit provides [ICON_GOLD] Ouro equal to its [ICON_STRENGTH] Combat Strength."	),
+	("pt_BR",	"LOC_CSE_SEUTHOPOLIS_TRAIT_DESCRIPTION",				"Eliminar uma unidade inimiga fornece [ICON_GOLD] Ouro igual a sua [ICON_STRENGTH] Força de Combate."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_SEUTHOPOLIS_NAME",			"{LOC_CIVILIZATION_CSE_SEUTHOPOLIS_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_SEUTHOPOLIS",							"{LOC_CIVILIZATION_CSE_SEUTHOPOLIS_NAME}"	),
@@ -1159,7 +1159,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SHAHR_E_SUKHTE_ADJECTIVE",		"Shahr-e Sukhté"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SHAHR_E_SUKHTE__DESCRIPTION",		"Cidade-Estado de {LOC_CIVILIZATION_CSE_SHAHR_E_SUKHTE_NAME}"		),
 	("pt_BR",	"LOC_CSE_SHAHR_E_SUKHTE_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_SHAHR_E_SUKHTE_NAME}"	),
-	("pt_BR",	"LOC_CSE_SHAHR_E_SUKHTE_TRAIT_DESCRIPTION",				"Your cities earn +15% bonus [ICON_CULTURE] Cultura output when you are not at war with any civilization."	),
+	("pt_BR",	"LOC_CSE_SHAHR_E_SUKHTE_TRAIT_DESCRIPTION",				"Suas cidades ganham +15% de [ICON_CULTURE] Cultura quando vocês não está em guerra com nenhuma outra civilização."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_SHAHR_E_SUKHTE_NAME",			"{LOC_CIVILIZATION_CSE_SHAHR_E_SUKHTE_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_SHAHR_E_SUKHTE",							"{LOC_CIVILIZATION_CSE_SHAHR_E_SUKHTE_NAME}"	),
@@ -1175,7 +1175,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SIDON_ADJECTIVE",		"Sidon"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SIDON_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_SIDON_NAME}"		),
 	("pt_BR",	"LOC_CSE_SIDON_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_SIDON_NAME}"	),
-	("pt_BR",	"LOC_CSE_SIDON_TRAIT_DESCRIPTION",			"Grievances against you deteriorate twice as quickly."	),
+	("pt_BR",	"LOC_CSE_SIDON_TRAIT_DESCRIPTION",			"Queixas contra você deterioram duas vezes mais rápido."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_SIDON_NAME",		"{LOC_CIVILIZATION_CSE_SIDON_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_SIDON",						"{LOC_CIVILIZATION_CSE_SIDON_NAME}"	),
@@ -1191,7 +1191,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SINGAPORE_ADJECTIVE",		"Singapore"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SINGAPORE_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_SINGAPORE_NAME}"		),
 	("pt_BR",	"LOC_CSE_SINGAPORE_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_SINGAPORE_NAME}"	),
-	("pt_BR",	"LOC_CSE_SINGAPORE_TRAIT_DESCRIPTION",			"Your civilization gains +1 de [ICON_GOLD] Ouro for each [ICON_ENVOY] Envoy sent to a city-state."	),
+	("pt_BR",	"LOC_CSE_SINGAPORE_TRAIT_DESCRIPTION",			"Sua civilização ganha +1 de [ICON_GOLD] Ouro para cada [ICON_ENVOY] Emissário enviado a uma cidade-estado."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_SINGAPORE_NAME",		"{LOC_CIVILIZATION_CSE_SINGAPORE_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_SINGAPORE",						"{LOC_CIVILIZATION_CSE_SINGAPORE_NAME}"	),
@@ -1208,7 +1208,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SRI_KSETRA_ADJECTIVE",	"Sri Ksetra"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_SRI_KSETRA_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_SRI_KSETRA_NAME}"		),
 	("pt_BR",	"LOC_CSE_SRI_KSETRA_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_SRI_KSETRA_NAME}"	),
-	("pt_BR",	"LOC_CSE_SRI_KSETRA_TRAIT_DESCRIPTION",			"Holy Sites provide [ICON_FOOD] Comida equal to their [ICON_FAITH] Fé adjacency bonus."	),
+	("pt_BR",	"LOC_CSE_SRI_KSETRA_TRAIT_DESCRIPTION",			"Lugares Sagrados fornecem [ICON_FOOD] Comida igual ao seu bônus de [ICON_FAITH] Fé por adjacência."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_SRI_KSETRA_NAME",		"{LOC_CIVILIZATION_CSE_SRI_KSETRA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_SRI_KSETRA",						"{LOC_CIVILIZATION_CSE_SRI_KSETRA_NAME}"	),
@@ -1224,9 +1224,9 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_TANGIER_ADJECTIVE",	"Tangier"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_TANGIER_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_TANGIER_NAME}"		),
 	("pt_BR",	"LOC_CSE_TANGIER_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_TANGIER_NAME}"	),
-	("pt_BR",	"LOC_CSE_TANGIER_TRAIT_DESCRIPTION",		"Receive two free [ICON_CIVICBOOSTED] Inspirations upon entering a new era. Theater districts receive +1 de [ICON_CULTURE] Cultura for every two adjacent districts."	),
+	("pt_BR",	"LOC_CSE_TANGIER_TRAIT_DESCRIPTION",		"Receba 2 [ICON_CIVICBOOSTED] Inspirações ao entrar em uma nova era. Distritos de Teatro recebem +1 de [ICON_CULTURE] Cultura para cada 2 distritos adjacentes."	),
 	
-	("pt_BR",	"LOC_CSE_TANGIER_THEATER_ADJACENCY",		"+{1_num} de [ICON_CULTURE] Cultura from the adjacent {1_Num : plural 1?district; other?districts;}. (Tangier)"		),
+	("pt_BR",	"LOC_CSE_TANGIER_THEATER_ADJACENCY",		"+{1_num} de [ICON_CULTURE] Cultura dos distritos adjacentes. (Tangier)"		),
 
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_TANGIER_NAME",	"{LOC_CIVILIZATION_CSE_TANGIER_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_TANGIER",					"{LOC_CIVILIZATION_CSE_TANGIER_NAME}"	),
@@ -1242,7 +1242,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_TAOS_ADJECTIVE",		"Taos"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_TAOS_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_TAOS_NAME}"		),
 	("pt_BR",	"LOC_CSE_TAOS_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_TAOS_NAME}"	),
-	("pt_BR",	"LOC_CSE_TAOS_TRAIT_DESCRIPTION",			"Quarried resources yield +2 de [ICON_SCIENCE] Ciência and +1 de [ICON_PRODUCTION] Produção."	),
+	("pt_BR",	"LOC_CSE_TAOS_TRAIT_DESCRIPTION",			"Recursos em pedreiras recevem +2 de [ICON_SCIENCE] Ciência e +1 de [ICON_PRODUCTION] Produção."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_TAOS_NAME",		"{LOC_CIVILIZATION_CSE_TAOS_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_TAOS",						"{LOC_CIVILIZATION_CSE_TAOS_NAME}"	),
@@ -1262,7 +1262,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_TEYUNA_ADJECTIVE",	"Teyuna"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_TEYUNA_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_TEYUNA_NAME}"		),
 	("pt_BR",	"LOC_CSE_TEYUNA_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_TEYUNA_NAME}"	),
-	("pt_BR",	"LOC_CSE_TEYUNA_TRAIT_DESCRIPTION",			"Tiles in your territory that are adjacent to a mountain yield +1 de [ICON_PRODUCTION] Produção."	),
+	("pt_BR",	"LOC_CSE_TEYUNA_TRAIT_DESCRIPTION",			"Painéis no seu território adjacentes a uma montanha fornecem +1 de [ICON_PRODUCTION] Produção."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_TEYUNA_NAME",		"{LOC_CIVILIZATION_CSE_TEYUNA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_TEYUNA",						"{LOC_CIVILIZATION_CSE_TEYUNA_NAME}"	),
@@ -1280,8 +1280,10 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_TISSAMAHARAMA_ADJECTIVE",		"Tissamaharama"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_TISSAMAHARAMA_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_TISSAMAHARAMA_NAME}"		),
 	("pt_BR",	"LOC_CSE_TISSAMAHARAMA_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_TISSAMAHARAMA_NAME}"	),
-	("pt_BR",	"LOC_CSE_TISSAMAHARAMA_TRAIT_DESCRIPTION",			"Land units gain +5 [ICON_STRENGTH] Combat Strength."	),
+	("pt_BR",	"LOC_CSE_TISSAMAHARAMA_TRAIT_DESCRIPTION",			"Unidades Terrestres ganham +5 de [ICON_STRENGTH] Força de Combate."	),
 	
+
+	("en_US",	"LOC_CSE_TISSAMAHARAMA_STRENGTH",					"+{1_Amount} Bônus de Combate (Tissamaharama)"	),
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_TISSAMAHARAMA_NAME",		"{LOC_CIVILIZATION_CSE_TISSAMAHARAMA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_TISSAMAHARAMA",						"{LOC_CIVILIZATION_CSE_TISSAMAHARAMA_NAME}"	),
 
@@ -1298,15 +1300,15 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_TUNERIUT_ADJECTIVE",		"Tuneriut"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_TUNERIUT_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_TUNERIUT_NAME}"		),
 	("pt_BR",	"LOC_CSE_TUNERIUT_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_TUNERIUT_NAME}"	),
-	("pt_BR",	"LOC_CSE_TUNERIUT_TRAIT_DESCRIPTION",			"Receive the [ICON_RESOURCE_CSE_WALRUS] Walrus luxury resource (not tradeable), which provides 6 [ICON_AMENITIES] Amenities. Harbors receive major adjacency bonuses from snow and ice."	),
+	("pt_BR",	"LOC_CSE_TUNERIUT_TRAIT_DESCRIPTION",			"Recebe o recurso de luxo [ICON_RESOURCE_CSE_WALRUS] Morsa (não negociável), que fornece 6 [ICON_AMENITIES] Serviços. Portos recebem bônus maior de adjacência de painéis de Neve e Gelo."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_TUNERIUT_NAME",		"{LOC_CIVILIZATION_CSE_TUNERIUT_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_TUNERIUT",						"{LOC_CIVILIZATION_CSE_TUNERIUT_NAME}"	),
 
-	("pt_BR",	"LOC_RESOURCE_CSE_WALRUS_NAME",					"Walrus"	),
+	("pt_BR",	"LOC_RESOURCE_CSE_WALRUS_NAME",					"Morsa"	),
 
-	("pt_BR",	"ADJ_CSE_TUNERIUT_ICE_GOLD",					"+{1_num} de [ICON_GOLD] Ouro from the adjacent ice {1_Num : plural 1?tile; other?tiles;}."	),
-	("pt_BR",	"ADJ_CSE_TUNERIUT_SNOW_GOLD",					"+{1_num} de [ICON_GOLD] Ouro from the adjacent snow {1_Num : plural 1?tile; other?tiles;}."	),
+	("pt_BR",	"ADJ_CSE_TUNERIUT_ICE_GOLD",					"+{1_num} de [ICON_GOLD] Ouro de {1_Num : plural 1?painel de gelo adjacente; other?painéis de gelo adjacentes;}."	),
+	("pt_BR",	"ADJ_CSE_TUNERIUT_SNOW_GOLD",					"+{1_num} de [ICON_GOLD] Ouro de {1_Num : plural 1?painel de neve adjacente; other?painéis de neve adjacentes;}."	),
 
 	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_TUNERIUT_CHAPTER_HISTORY_PARA_1",	"Native Point is a peninsula in Kivalliq Region, Nunavut, Canada. It is located on Southampton Island's Bell Peninsula at the mouth of Native Bay. It is notable for being the location of an abandoned Sadlermiut settlement, currently an archaeological site. The Sadlermiut settlement, situated on the west side of the point, was abandoned after the Sadlermiut became extinct during the winter between 1902 and 1903."	),
 	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_TUNERIUT_CHAPTER_HISTORY_PARA_2",	"The material culture of the Sadlermiut were limited to chipped stone tools and various manufactured organic artifacts. Among the artifacts found in the site were human figurines called aarnguaq, which was probably used for a healing ritual. This indicates that the Sadlermiut were shamanistic. In addition, multiple human remains were found on the site. Merbs and Wilson grouped the burials intro three series, each with chronological significance: the 'village' graves, which were thought to be the oldest, 'peripheral' burials located northeast and southeast of the settlement which were given of intermediate age, and a series of 'meat-cache' graves, suggested to primarily represent casualties from the 1902-1903 epidemic which decimated the Sadlermiut population."	),
@@ -1321,7 +1323,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_UGARIT_ADJECTIVE",	"Ugarit"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_UGARIT_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_UGARIT_NAME}"		),
 	("pt_BR",	"LOC_CSE_UGARIT_TRAIT_NAME",				"{LOC_CIVILIZATION_CSE_UGARIT_NAME}"	),
-	("pt_BR",	"LOC_CSE_UGARIT_TRAIT_DESCRIPTION",			"Cities with an established [ICON_GOVERNOR] Governor receives +50% [ICON_PRODUCTION] Produção towards naval units."	),
+	("pt_BR",	"LOC_CSE_UGARIT_TRAIT_DESCRIPTION",			"Cidades com um [ICON_GOVERNOR] Governador estabelecido recebem +50% de [ICON_PRODUCTION] Produção para unidades navais."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_UGARIT_NAME",		"{LOC_CIVILIZATION_CSE_UGARIT_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_UGARIT",						"{LOC_CIVILIZATION_CSE_UGARIT_NAME}"	),
@@ -1339,7 +1341,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_URGENCH_ADJECTIVE",		"Urgenchian"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_URGENCH__DESCRIPTION",	"Cidade-Estado de {LOC_CIVILIZATION_CSE_URGENCH_NAME}"		),
 	("pt_BR",	"LOC_CSE_URGENCH_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_URGENCH_NAME}"	),
-	("pt_BR",	"LOC_CSE_URGENCH_TRAIT_DESCRIPTION",			"+1 de [ICON_TRADEROUTE] Trade Route capacity. International [ICON_TRADEROUTE] Trade Routes from cities settled on desert tiles yield +4 de [ICON_GOLD] Ouro."	),
+	("pt_BR",	"LOC_CSE_URGENCH_TRAIT_DESCRIPTION",			"Recebe +1 de capacidade de [ICON_TRADEROUTE] Rotas Comerciais. [ICON_TRADEROUTE] Rotas Comerciais de cidades em painéis de deserto recebem +4 de [ICON_GOLD] Ouro."	),
 
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_URGENCH_NAME",		"{LOC_CIVILIZATION_CSE_URGENCH_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_URGENCH",						"{LOC_CIVILIZATION_CSE_URGENCH_NAME}"	),
@@ -1356,7 +1358,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_VADUZ_ADJECTIVE",		"Vaduz"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_VADUZ_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_VADUZ_NAME}"		),
 	("pt_BR",	"LOC_CSE_VADUZ_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_VADUZ_NAME}"	),
-	("pt_BR",	"LOC_CSE_VADUZ_TRAIT_DESCRIPTION",			"Buildings cost 15% less [ICON_GOLD] Ouro to purchase."	),
+	("pt_BR",	"LOC_CSE_VADUZ_TRAIT_DESCRIPTION",			"Edificações custam 15% menos [ICON_GOLD] Ouro para comprar."	),
 
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_VADUZ_NAME",		"{LOC_CIVILIZATION_CSE_VADUZ_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_VADUZ",						"{LOC_CIVILIZATION_CSE_VADUZ_NAME}"	),
@@ -1373,7 +1375,7 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_VALABHI_ADJECTIVE",		"Valabhi"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_VALABHI__DESCRIPTION",	"Cidade-Estado de {LOC_CIVILIZATION_CSE_VALABHI_NAME}"		),
 	("pt_BR",	"LOC_CSE_VALABHI_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_VALABHI_NAME}"	),
-	("pt_BR",	"LOC_CSE_VALABHI_TRAIT_DESCRIPTION",			"Campus districts provide [ICON_FAITH] Fé equal to their adjacency bonus and their buildings may be purchased with [ICON_FAITH] Fé."	),
+	("pt_BR",	"LOC_CSE_VALABHI_TRAIT_DESCRIPTION",			"Distritos de Campus fornecem [ICON_FAITH] Fé igual ao seu bônus de adjacência e suas edificações podem ser compradas com [ICON_FAITH] Fé."	),
 
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_VALABHI_NAME",		"{LOC_CIVILIZATION_CSE_VALABHI_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_VALABHI",						"{LOC_CIVILIZATION_CSE_VALABHI_NAME}"	),
@@ -1388,9 +1390,9 @@ VALUES
 	
 	("pt_BR",	"LOC_CIVILIZATION_CSE_VIENNA_NAME",				"Vienna"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_VIENNA_ADJECTIVE",		"Vienna"	),
-	("pt_BR",	"LOC_CIVILIZATION_CSE_VIENNA__DESCRIPTION",	"Cidade-Estado de {LOC_CIVILIZATION_CSE_VIENNA_NAME}"		),
+	("pt_BR",	"LOC_CIVILIZATION_CSE_VIENNA__DESCRIPTION",		"Cidade-Estado de {LOC_CIVILIZATION_CSE_VIENNA_NAME}"		),
 	("pt_BR",	"LOC_CSE_VIENNA_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_VIENNA_NAME}"	),
-	("pt_BR",	"LOC_CSE_VIENNA_TRAIT_DESCRIPTION",				"Your cities with an established [ICON_GOVERNOR] Governor provide +1 de [ICON_FAVOR] Diplomatic Favor per turn."	),
+	("pt_BR",	"LOC_CSE_VIENNA_TRAIT_DESCRIPTION",				"Suas Cidades com um [ICON_GOVERNOR] Governador estabelecido fornecem +1 de [ICON_FAVOR] Favor Diplomático por turno."	),
 
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_VIENNA_NAME",			"{LOC_CIVILIZATION_CSE_VIENNA_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_VIENNA",							"{LOC_CIVILIZATION_CSE_VIENNA_NAME}"	),
@@ -1405,12 +1407,12 @@ VALUES
 	("pt_BR",	"LOC_CIVILIZATION_CSE_WYAM_ADJECTIVE",		"Wyam"	),
 	("pt_BR",	"LOC_CIVILIZATION_CSE_WYAM_DESCRIPTION",	"{LOC_CIVILIZATION_CSE_WYAM_NAME}"		),
 	("pt_BR",	"LOC_CSE_WYAM_TRAIT_NAME",					"Bônus de Suzerano de {LOC_CIVILIZATION_CSE_WYAM_NAME}"	),
-	("pt_BR",	"LOC_CSE_WYAM_TRAIT_DESCRIPTION",			"Receive the [ICON_RESOURCE_CSE_SALMON] Wild Salmon luxury resource (not tradeable), which provides 6 [ICON_AMENITIES] Amenities. Fishing Boat improvements yield +1 de [ICON_CULTURE] Cultura."	),
+	("pt_BR",	"LOC_CSE_WYAM_TRAIT_DESCRIPTION",			"Recebe o recurso de luxo [ICON_RESOURCE_CSE_SALMON] Salmão Pescado (não negociável), que fornece 6 [ICON_AMENITIES] Serviços. Melhorias de Navios Pesqueiros fornecem +1 de [ICON_CULTURE] Cultura."	),
 	
 	("pt_BR",	"LOC_LEADER_MINOR_CIV_CSE_WYAM_NAME",		"{LOC_CIVILIZATION_CSE_WYAM_NAME}"	),
 	("pt_BR",	"LOC_CITY_NAME_WYAM",						"{LOC_CIVILIZATION_CSE_WYAM_NAME}"	),
 
-	("pt_BR",	"LOC_RESOURCE_CSE_SALMON_NAME",				"Wild Salmon"	),
+	("pt_BR",	"LOC_RESOURCE_CSE_SALMON_NAME",				"Salmão Pescado"	),
 
 	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_WYAM_CHAPTER_HISTORY_PARA_1",	"Celilo Falls (Wyam, meaning 'echo of falling water' or 'sound of water upon the rocks', in several native languages) was a tribal fishing area on the Columbia River, just east of the Cascade Mountains, on what is today the border between the U.S. states of Oregon and Washington. The name refers to a series of cascades and waterfalls on the river, as well as to the native settlements and trading villages that existed there in various configurations for 15,000 years. Celilo was the oldest continuously inhabited community on the North American continent until 1957, when the falls and nearby settlements were submerged by the construction of The Dalles Dam."	),
 	("pt_BR",	"LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_CSE_WYAM_CHAPTER_HISTORY_PARA_2",	"For 15,000 years, native peoples gathered at Wyam to fish and exchange goods. They built wooden platforms out over the water and caught salmon with dipnets and long spears on poles as the fish swam up through the rapids and jumped over the falls. Historically, an estimated fifteen to twenty million salmon passed through the falls every year, making it one of the greatest fishing sites in North America."	),
