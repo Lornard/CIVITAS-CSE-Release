@@ -28,6 +28,26 @@
       </Properties>
       <File>Core/CSE_Localisation.sql</File>
     </UpdateText>
+	<UpdateText id="CSE_Mekong_Translations">
+      <Properties>
+        <LoadOrder>45</LoadOrder>
+      </Properties>
+      <File>Core/Localisation/CSE_Localisation_PT_BR.sql</File>
+    </UpdateText>
+	<UpdateText id="CSE_Mekong_Translations_XP1">
+      <Properties>
+        <LoadOrder>46</LoadOrder>
+      </Properties>
+	  <Criteria>XP1</Criteria>
+      <File>Core/Localisation/CSE_Localisation_XP1_PT_BR.sql</File>
+    </UpdateText>
+	<UpdateText id="CSE_Mekong_Translations_XP2">
+      <Properties>
+        <LoadOrder>47</LoadOrder>
+      </Properties>
+	  <Criteria>XP2</Criteria>
+      <File>Core/Localisation/CSE_Localisation_XP2_PT_BR.sql</File>
+    </UpdateText>
     <UpdateDatabase id="CSE_Mekong_Master">
       <Properties>
         <LoadOrder>5</LoadOrder>
@@ -88,6 +108,9 @@
     <File>Core/CSE_Localisation_XP1.sql</File>
     <File>Core/CSE_Localisation_XP2.sql</File>
     <File>Core/CSE_Master.sql</File>
+	<File>Core/Localisation/CSE_Localisation_PT_BR.sql</File>
+	<File>Core/Localisation/CSE_Localisation_XP1_PT_BR.sql</File>
+	<File>Core/Localisation/CSE_Localisation_XP2_PT_BR.sql</File>
     <File>Core/Mod Support/CSE_MS_ReligionExpanded.sql</File>
     <File>Core/XP2/CSE_Consular_XP2.sql</File>
   </Files>
