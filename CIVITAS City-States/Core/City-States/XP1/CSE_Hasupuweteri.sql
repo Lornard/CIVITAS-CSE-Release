@@ -1,6 +1,6 @@
 /*
 	Hasupuweteri
-	~ Your builders may construct Kiva improvements.
+	~ Your builders may construct Maloca improvements.
 
 	Authors: lornard
 */
@@ -38,9 +38,9 @@ VALUES	(
 		'ICON_IMPROVEMENT_CSE_MALOCA', -- Icon
 		1, -- Buildable
 		1, -- Housing
-		2, -- TilesRequired
-		'PLUNDER_HEALTH', -- PlunderType
-		25, -- PlunderAmount
+		1, -- TilesRequired
+		'PLUNDER_HEAL', -- PlunderType
+		50, -- PlunderAmount
 		0 -- SameAdjacentValid
 		);
 
@@ -53,12 +53,12 @@ INSERT INTO Improvement_ValidBuildUnits
 VALUES	('IMPROVEMENT_CSE_MALOCA',	'UNIT_BUILDER'	);
 
 -----------------------------------------------
--- Improvement_ValidTerrains ?? There is a VALIDFEATURES table?
+-- Improvement_ValidFeatures 
 -----------------------------------------------
 		
---INSERT INTO Improvement_ValidTerrains
---		(ImprovementType,			TerrainType				)
---VALUES	('IMPROVEMENT_CSE_MALOCA',	'FEATURE_RAINFOREST'		);
+INSERT INTO Improvement_ValidFeatures
+		(ImprovementType,			TerrainType				)
+VALUES	('IMPROVEMENT_CSE_MALOCA',	'FEATURE_JUNGLE'		);
 
 -----------------------------------------------
 -- Improvement_YieldChanges
@@ -69,48 +69,84 @@ INSERT INTO Improvement_YieldChanges
 VALUES	('IMPROVEMENT_CSE_MALOCA',	'YIELD_FOOD',		1			);
 
 -----------------------------------------------
--- Improvement_YieldChanges (ADJACENCT_TILES) - No idea how to do this yet.
------------------------------------------------
-
------------------------------------------------
 -- Improvement_BonusYieldChanges
 -----------------------------------------------
 
 INSERT INTO Improvement_BonusYieldChanges
-		(Id,	ImprovementType,		YieldType,			BonusYieldChange,	PrereqTech,					PrereqCivic				)
-VALUES	(100,	'IMPROVEMENT_CSE_KIVA',	'YIELD_FOOD',		1,					NULL,						'CIVIC_GUILDS'			),
-		(101,	'IMPROVEMENT_CSE_KIVA',	'YIELD_PRODUCTION',	1,					'TECH_MASS_PRODUCTION',		NULL					),
-		(102,	'IMPROVEMENT_CSE_KIVA',	'YIELD_FAITH',		1,					NULL,						'CIVIC_DIVINE_RIGHT'	);
+		(Id,	ImprovementType,			YieldType,			BonusYieldChange,	PrereqTech,					PrereqCivic			)
+VALUES	(100,	'IMPROVEMENT_CSE_MALOCA',	'YIELD_FOOD',		1,					NULL,						'CIVIC_FEUDALISM'	);
 
------------------------------------------------
--- Improvement_BonusYieldChanges (ADJACENCT_TILES) - Also, no idea how to do this yet.
------------------------------------------------
+--Criar os requirements para Guilds
+--Criar os requirements para HAS_ANY_IMPROVEMENT
 
+--------------------------------------------------------------
+-- Requirements
+--------------------------------------------------------------
+INSERT INTO Requirements 
+		(RequirementId,							RequirementType							)
+VALUES 	('REQUIRES_PLAYER_HAS_GUILDS',			'REQUIREMENT_PLAYER_HAS_CIVIC'			),
+		('REQUIRES_PLOT_HAS_ANY_IMPROVEMENT',	'REQUIREMENT_PLOT_HAS_ANY_IMPROVEMENT'	);
 		
--- No adjacencies for itself - It'll improve adjacent tiles similar to Nazca Lines
+--------------------------------------------------------------
+-- RequirementArguments
+--------------------------------------------------------------
+INSERT INTO RequirementArguments
+		(RequirementId,							Name,			Type,				Value			)
+VALUES 	('REQUIRES_PLAYER_HAS_GUILDS',			'CivicType',	'ARGTYPE_IDENTITY',	'CIVIC_GUILDS'	);
+
+--------------------------------------------------------------
+-- RequirementSets
+--------------------------------------------------------------
+INSERT INTO RequirementSets
+		(RequirementSetId,									RequirementSetType)
+VALUES	('CSE_MALOCA_ADJACENCY_FOOD_REQUIREMENTS',			'REQUIREMENTSET_TEST_ALL'),
+		('CSE_MALOCA_ADJACENCY_LATE_FOOD_REQUIREMENTS',		'REQUIREMENTSET_TEST_ALL'),
+		('CSE_MALOCA_ADJACENCY_LATE_CULTURE_REQUIREMENTS',	'REQUIREMENTSET_TEST_ALL');
+--------------------------------------------------------------
+
+--------------------------------------------------------------
+-- RequirementSetRequirements
+--------------------------------------------------------------
+INSERT INTO RequirementSetRequirements
+		(RequirementSetId,									RequirementId)
+VALUES	('CSE_MALOCA_ADJACENCY_FOOD_REQUIREMENTS',			'ADJACENT_TO_OWNER'						),
+		('CSE_MALOCA_ADJACENCY_FOOD_REQUIREMENTS',			'REQUIRES_PLOT_HAS_NO_IMPROVEMENT'		),
+		('CSE_MALOCA_ADJACENCY_LATE_FOOD_REQUIREMENTS',		'ADJACENT_TO_OWNER'						),
+		('CSE_MALOCA_ADJACENCY_LATE_FOOD_REQUIREMENTS',		'REQUIRES_PLOT_HAS_NO_IMPROVEMENT'		),
+		('CSE_MALOCA_ADJACENCY_LATE_FOOD_REQUIREMENTS',		'REQUIRES_PLAYER_HAS_GUILDS'			),
+		('CSE_MALOCA_ADJACENCY_LATE_CULTURE_REQUIREMENTS',	'ADJACENT_TO_OWNER'						),
+		('CSE_MALOCA_ADJACENCY_LATE_CULTURE_REQUIREMENTS',	'REQUIRES_PLOT_HAS_ANY_IMPROVEMENT'	),
+		('CSE_MALOCA_ADJACENCY_LATE_CULTURE_REQUIREMENTS',	'REQUIRES_PLAYER_HAS_GUILDS'			);
+		
 -----------------------------------------------
--- Improvement_Adjacencies
+-- Modifiers
 -----------------------------------------------
------------------------------------------------
--- Adjacency_YieldChanges
------------------------------------------------
+
+INSERT INTO Modifiers
+		(ModifierId,							ModifierType,										SubjectRequirementSetId							)
+VALUES	('CSE_HASUPUWETERI_SUZERAIN_MALOCA',	'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',				'PLAYER_IS_SUZERAIN'							),
+		('CSE_HASUPUWETERI_MALOCA',				'MODIFIER_PLAYER_ADJUST_VALID_IMPROVEMENT',			NULL											),
+		('CSE_MALOCA_ADJACENCY_FOOD',			'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',				'CSE_MALOCA_ADJACENCY_FOOD_REQUIREMENTS'		),
+		('CSE_MALOCA_ADJACENCY_LATE_FOOD',		'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',				'CSE_MALOCA_ADJACENCY_LATE_FOOD_REQUIREMENTS'	),
+		('CSE_MALOCA_ADJACENCY_LATE_CULTURE',	'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',				'CSE_MALOCA_ADJACENCY_LATE_CULTURE_REQUIREMENTS');
+
+--------------------------------------------------------------
+-- ImprovementModifiers
+--------------------------------------------------------------
+INSERT INTO ImprovementModifiers
+		(ImprovementType,			ModifierId)
+VALUES	('IMPROVEMENT_CSE_MALOCA',	'ADJ_CSE_MALOCA_FOOD'),
+		('IMPROVEMENT_CSE_MALOCA',	'ADJ_CSE_MALOCA_LATE_FOOD'),
+		('IMPROVEMENT_CSE_MALOCA',	'ADJ_CSE_MALOCA_CULTURE');
+--------------------------------------------------------------		
 
 -----------------------------------------------
 -- TraitModifiers
 -----------------------------------------------
 
 INSERT INTO TraitModifiers
-		(TraitType,							ModifierId						)
+		(TraitType,								ModifierId						)
 VALUES	('MINOR_CIV_CSE_HASUPUWETERI_TRAIT',	'CSE_HASUPUWETERI_SUZERAIN_MALOCA'	);
-
------------------------------------------------
--- Modifiers
------------------------------------------------
-
-INSERT INTO Modifiers
-		(ModifierId,							ModifierType,								SubjectRequirementSetId	)
-VALUES	('CSE_HASUPUWETERI_SUZERAIN_MALOCA',	'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',		'PLAYER_IS_SUZERAIN'	),
-		('CSE_HASUPUWETERI_MALOCA',				'MODIFIER_PLAYER_ADJUST_VALID_IMPROVEMENT',	NULL					);
 
 -----------------------------------------------
 -- ModifierArguments

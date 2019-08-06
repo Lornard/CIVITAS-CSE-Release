@@ -360,6 +360,7 @@ INSERT INTO CSE_UserSettings (Setting, Section, Requires, Value) VALUES
 	('CSE_GUNDESHAPUR',		'DISABLED', 'XP2',	0	), -- Requires XP2 (Gathering Storm)
 	('CSE_HADAD',			'DISABLED', 'XP1',	0	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
 	('CSE_HALIN',			'DISABLED', 'XP1',	0	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
+	('CSE_HASUPUWETERI',	'DISABLED', 'XP1',	0	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
 	('CSE_HAVANA',			'DISABLED', 'BASE',	0	),
 	('CSE_HAZOR',			'DISABLED', 'BASE',	0	),
 	('CSE_HORMUZ',			'DISABLED', 'XP1',	0	), -- Requires XP1 or XP2 (Rise and Fall or Gathering Storm)
